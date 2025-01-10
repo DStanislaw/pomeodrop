@@ -1,5 +1,10 @@
 body {
-  background-color: green;
+  background-color: #009efa;
+}
+
+p::first-letter {
+  color: #ff0000;
+  font-size: xx-large;
 }
 
 /*# sourceMappingURL=index.css.map */

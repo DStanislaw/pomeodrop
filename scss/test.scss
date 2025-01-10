@@ -1,3 +1,22 @@
+$bluepatern: #009efa;
+
+
 body{
-background-color: green;
+background-color: $bluepatern;
+}
+
+
+p::first-letter {
+    color: #ff0000;
+    font-size: xx-large;
+  }
+
+nav{
+
+    ul{
+        li{
+
+
+        }
+    }
 }
