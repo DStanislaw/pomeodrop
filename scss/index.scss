@@ -1,48 +1,4 @@
-.menu2__navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0.6vw 0.6vw;
-    background-color: #161924;
-}
 
-.menu2__navbar-item {
-    padding: 0.3vw 0.6vw;
-    display: flex;
-    gap: 1vw;
-}
-
-.menu2__navbar-itemdaily {
-    cursor: pointer;
-    border-color: rgba(63, 146, 255, 0.192);
-    font-weight: bold;
-    padding: 0.4vw 0.9vw;
-    border-radius: 0.35vw;
-    background-color: rgba(63, 146, 255, 0.192);
-    align-items: center;
-    color: rgb(63, 146, 255);
-}
-
-.menu2__navbar-itempromo {
-    cursor: pointer;
-    border-color: rgba(251, 255, 0, 0.144);
-    font-weight: bold;
-    padding: 0.4vw 0.9vw;
-    border-radius: 0.35vw;
-    background-color: rgba(251, 255, 0, 0.144);
-    align-items: center;
-    color: rgb(251, 255, 0);
-}
-
-.menu2__navbar-itemexp {
-    cursor: pointer;
-    border-color: rgba(16, 255, 36, 0.11);
-    font-weight: bold;
-    padding: 0.4vw 0.9vw;
-    border-radius: 0.35vw;
-    background-color: rgba(16, 255, 36, 0.11);
-    align-items: center;
-    color: rgb(0, 255, 21);
 * {
     margin: 0;
     padding: 0;
