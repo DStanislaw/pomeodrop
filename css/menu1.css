@@ -1,0 +1,28 @@
+.menu1 {
+  display: flex;
+  height: 3.5vw;
+  position: relative;
+  width: 100vw;
+  background-color: #1b1f2b;
+}
+
+.menu1__logo {
+  display: flex;
+  margin-left: 0.8vw;
+  align-items: center;
+}
+.menu1__logo img {
+  height: 2vw;
+  align-items: center;
+}
+
+.menu1__currency .menu1__currency-country {
+  display: flex;
+  margin-left: 1vw;
+}
+.menu1__currency .menu1__currency-country img {
+  width: 1vw;
+  height: 1vw;
+}
+
+/*# sourceMappingURL=menu1.css.map */
