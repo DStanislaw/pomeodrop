@@ -16,9 +16,9 @@
   cursor: pointer;
   border-color: rgba(63, 146, 255, 0.192);
   font-weight: bold;
-  padding: 0.4vw 0.9vw;
+  padding: 0.4vw 1.1vw;
   border-radius: 0.35vw;
-  background-color: rgba(63, 146, 255, 0.192);
+  background-color: rgba(63, 146, 255, 0.082);
   align-items: center;
   color: rgb(63, 146, 255);
 }
@@ -27,9 +27,9 @@
   cursor: pointer;
   border-color: rgba(251, 255, 0, 0.144);
   font-weight: bold;
-  padding: 0.4vw 0.9vw;
+  padding: 0.4vw 1.1vw;
   border-radius: 0.35vw;
-  background-color: rgba(251, 255, 0, 0.144);
+  background-color: rgba(251, 255, 0, 0.082);
   align-items: center;
   color: rgb(251, 255, 0);
 }
@@ -38,11 +38,42 @@
   cursor: pointer;
   border-color: rgba(16, 255, 36, 0.11);
   font-weight: bold;
-  padding: 0.4vw 0.9vw;
+  padding: 0.4vw 1.1vw;
   border-radius: 0.35vw;
-  background-color: rgba(16, 255, 36, 0.11);
+  background-color: rgba(16, 255, 36, 0.062);
   align-items: center;
   color: rgb(0, 255, 21);
+}
+
+.menu2__navbar-socialmedia {
+  display: flex;
+  gap: 1vw;
+}
+
+.menu2__navbar-socialmedia-facebook {
+  height: 1.1vw;
+}
+
+.menu2__navbar-socialmedia-instagram {
+  height: 1.1vw;
+}
+
+.menu2__navbar-socialmedia-x {
+  height: 1.1vw;
+}
+
+.menu2__navbar-socialmedia-tiktok {
+  height: 1.1vw;
+}
+
+.menu2__navbar-socialmedia-discord {
+  height: 1.1vw;
+}
+
+.menu2__seperator {
+  border: none;
+  height: 0.03vw;
+  background-color: #c9c9c9;
 }
 
 /*# sourceMappingURL=menu2.css.map */
