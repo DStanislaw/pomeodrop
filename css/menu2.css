@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "ponur";
+  src: url("../design/fonts/Fontspring-DEMO-billie-bold.otf") format("otf") font-weight normal;
+  font-style: normal;
+}
 .menu2__navbar {
   display: flex;
   align-items: center;
@@ -12,37 +17,73 @@
   gap: 1vw;
 }
 
-.menu2__navbar-itemdaily {
-  cursor: pointer;
-  border-color: rgba(63, 146, 255, 0.192);
-  font-weight: bold;
+.menu2__navbar-itemdaily button {
   padding: 0.4vw 0.9vw;
   border-radius: 0.35vw;
   background-color: rgba(63, 146, 255, 0.192);
   align-items: center;
+  cursor: pointer;
+  border-color: rgba(63, 146, 255, 0.192);
+}
+.menu2__navbar-itemdaily p {
+  font-family: "ponur", sans-serif;
+  font-size: 1vw;
+  font-weight: bold;
   color: rgb(63, 146, 255);
 }
 
-.menu2__navbar-itempromo {
-  cursor: pointer;
-  border-color: rgba(251, 255, 0, 0.144);
-  font-weight: bold;
+.menu2__navbar-itempromo button {
   padding: 0.4vw 0.9vw;
   border-radius: 0.35vw;
-  background-color: rgba(251, 255, 0, 0.144);
+  background-color: rgba(251, 255, 0, 0.082);
   align-items: center;
+  cursor: pointer;
+  border-color: rgba(251, 255, 0, 0.144);
+}
+.menu2__navbar-itempromo p {
+  font-weight: bold;
   color: rgb(251, 255, 0);
 }
 
-.menu2__navbar-itemexp {
+.menu2__navbar-itemexp button {
   cursor: pointer;
   border-color: rgba(16, 255, 36, 0.11);
-  font-weight: bold;
   padding: 0.4vw 0.9vw;
   border-radius: 0.35vw;
-  background-color: rgba(16, 255, 36, 0.11);
+  background-color: rgba(16, 255, 36, 0.062);
   align-items: center;
   color: rgb(0, 255, 21);
+}
+
+.menu2__navbar-socialmedia {
+  display: flex;
+  gap: 1vw;
+}
+
+.menu2__navbar-socialmedia-facebook {
+  height: 1.1vw;
+}
+
+.menu2__navbar-socialmedia-instagram {
+  height: 1.1vw;
+}
+
+.menu2__navbar-socialmedia-x {
+  height: 1.1vw;
+}
+
+.menu2__navbar-socialmedia-tiktok {
+  height: 1.1vw;
+}
+
+.menu2__navbar-socialmedia-discord {
+  height: 1.1vw;
+}
+
+.menu2__seperator {
+  border: none;
+  height: 0.03vw;
+  background-color: #c9c9c9;
 }
 
 /*# sourceMappingURL=menu2.css.map */

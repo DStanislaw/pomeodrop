@@ -180,6 +180,10 @@
   display: flex;
   align-items: center;
 }
+.menu1__steamlogin .menu1__steamlogin-icon img {
+  width: 1vw;
+  height: 1vw;
+}
 .menu1__steamlogin .menu1__steamlogin-name {
   display: flex;
   align-items: center;
