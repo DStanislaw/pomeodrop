@@ -1,17 +1,17 @@
-
+@use '_variables';
 .header3 {
   position: sticky;
   top: 0;
   width: 100%;
-  background-color: #1e1e1e;
+  background-color: variables.$menu2_background;
   height: auto; 
   display: flex;
   align-items: center;
   padding: 0 16px;
   
   .header3__line {
-    width: clamp(0.05rem, 0.1vw, 0.1rem); // Adjust width using clamp
-    height: clamp(2rem, 4vh, 2.5rem); // Adjust height using clamp
+    width: clamp(0.05rem, 0.1vw, 0.1rem); 
+    height: clamp(2rem, 4vh, 2.5rem); 
     
   }
   
@@ -25,7 +25,7 @@
     position: relative;
     padding: 12px 0;
 
-    & > *:not(:last-child) { /* Tylko elementy, które nie są ostatnim dzieckiem */
+    & > *:not(:last-child) { 
       position: relative;
 
       &::after {
@@ -35,7 +35,7 @@
         left: 0;
         right: 0;
         height: 1px; 
-        background-color: #2e2e2e; 
+        background-color: #6e6e6e; 
       }
     }
   }
@@ -44,19 +44,31 @@
   &__menu {
     width: 2vw;
     height: 2vw;
+    font-size: 1.8vw;
+    color: rgb(67, 138, 230);
    
     
     
   }
 
   &__logo {
-    width: 24px;
-    height: 24px;
-    background-color: #3b4d61;
+    width: 2vw;
+    height: 2vw;
+    margin-top: 0.5vw;
+    font-size: 1.2vw;
+    color: rgb(248, 248, 248); 
     
+    &:hover {
+      color: rgb(67, 138, 230); 
+      transform: scale(1.1);   
+      transition: color 0.3s ease, transform 0.3s ease; 
+    }
   }
-}
+  
 
+
+
+  }
 .gallery {
   display: flex;
   justify-content: space-between; 
