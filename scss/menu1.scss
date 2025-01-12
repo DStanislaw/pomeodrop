@@ -186,6 +186,7 @@
 
 }
 .menu1__steamlogin{
+  
   width: 12.3vw;
   height: 2.2vw;
   border-radius: 0.3vw;
@@ -201,8 +202,9 @@
     align-items: center;
     
     img{
-      width: 1vw;
-      height: 1vw;
+      width: 0.8vw;
+      height: 0.8vw;
+      margin-left: 0.7vw;
       
     }
   }
@@ -210,11 +212,24 @@
   .menu1__steamlogin-name{
     display: flex;
     align-items: center;
+    font-family:"ponur", sans-serif;
+    font-size: 0.75vw;
+    margin-left: 0.5vw;
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: 0.02vw;
   }
 
   .menu1__steamlogin-years{
     display: flex;
     align-items: center;
+    font-family:"ponur", sans-serif;
+    font-size: 0.75vw;
+    font-weight: 700;
+    color: #ffffff;
+    letter-spacing: 0.02vw;
+    margin-left: 0.5vw;
+
   }
 
 }
