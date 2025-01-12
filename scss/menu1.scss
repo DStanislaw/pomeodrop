@@ -1,77 +1,201 @@
+@use "_variables";
+@font-face {
+    font-family: 'ponur';
+    src: url('../design/fonts/Fontspring-DEMO-billie-bold.otf') format('otf')
+        
+    font-weight normal;
+    font-style: normal;
+  }
 
-
-@use '_variables';
-
-
-.menu1{
-    display: flex; 
-    height: 3.5vw;
-    position: relative;
-    width: 100vw;
-    background-color: variables.$blue_ponur;
-
-
-
-    
+.menu1 {
+  display: flex;
+  height: 3.5vw;
+  position: relative;
+  width: 100vw;
+  background-color: variables.$blue_ponur;
 }
 
-.menu1__logo{
-    display: flex; 
-    margin-left: 0.8vw;
-    
+.menu1__logo {
+  display: flex;
+  margin-left: 0.8vw;
 
+  align-items: center;
+  img {
+    height: 2vw;
+    
+  }
+}
+
+.menu1__currency {
+  align-items: center;
+  display: flex;
+
+  .menu1__currency-country {
+    display: flex;
+    margin-left: 1vw;
     align-items: center;
-    img {
-       
-        height: 2vw;
-        align-items: center;
-        
-        
-    }
-}
+    border: 0.1vw solid rgb(255, 255, 255);
+    border-radius: 50%;
+   
 
-.menu1__currency{
+    img {
+      width: 1vw;
+      height: 1vw;
+    }
+  }
+
+  .menu1__currency-name {
+    margin-left: 0.4vw;
+
+    span {
+      font-family: Arial, sans-serif;
+      color: #ffff;
+      font-weight: 600;
+      font-size: 0.8vw;
+    }
+  }
+  .menu1__currency-icon {
+    margin-left: 0.35vw;
+    transform: rotate(90deg);
+    
+   
+
+   span{
+    color: #ffff;
+    font-size: 0.5vw;
+   
+   }
+  }
+
+ 
+}
+.menu1__navigation{
+   
     align-items: center;
     display: flex;
+    margin-left: auto;
+    gap: 1vw;
+    padding-right: 20rem;
     
-
-    .menu1__currency-country{
+    .menu1__navigation-event{
         display: flex;
-        margin-left: 1vw;
+        margin-left: auto;
         align-items: center;
-        
-        
-        img{
-            
-            width: 1vw;
-            height: 1vw;
-
-        }
-       
-    }
-
-    .menu1__currency-name{
-        margin-left: 0.4vw;
+        display: flex;
+        gap: 0.4vw;
 
         span{
-            font-family: Arial, sans-serif;
-            color: #ffff;
-            font-weight: 600;
-            font-size: 0.8vw;
+           fill: #ee9b01;
+            display: flex;
+            font-size: 0.7vw;
+            color: #ee9b01;
             
-
-
+        }
+        p{
+            letter-spacing: 0.08vw;
+            font-family: 'ponur', sans-serif;
+            font-size: 0.58vw;
+            font-weight: 700;
+            display: flex;
+            color: #ee9b01;
+            
         }
     }
-    .menu1__currency-icon{
-        margin-left: 0.35vw;
 
+    .menu1__navigation-chests{
+        display: flex;
+        margin-left: auto;
+        align-items: center;
+        display: flex;
+        gap: 0.4vw;
 
-        img{
-           height: 0.5vw;
-           width: 0.5vw;
-
+        span{
+           fill: #ffffff;
+            display: flex;
+            font-size: 0.7vw;
+            color: #ffffff;
+            
+        }
+        p{
+            display: flex;
+            color: #ffffff;
+            letter-spacing: 0.08vw;
+            font-family: 'ponur', sans-serif;
+            font-size: 0.58vw;
+            font-weight: 700;
         }
     }
-}
+    .menu1__navigation-battles{
+        display: flex;
+        margin-left: auto;
+        align-items: center;
+        display: flex;
+        gap: 0.4vw;
 
+        span{
+          
+            display: flex;
+            font-size: 0.7vw;
+            color: #03b31b;
+            
+        }
+        p{
+            display: flex;
+            color: #03b31b;
+            letter-spacing: 0.08vw;
+            font-family: 'ponur', sans-serif;
+            font-size: 0.58vw;
+            font-weight: 700;
+        }
+    }
+
+
+    .menu1__navigation-contract{
+        display: flex;
+        margin-left: auto;
+        align-items: center;
+        display: flex;
+        gap: 0.4vw;
+
+        span{
+           fill: #ffffff;
+            display: flex;
+            font-size: 0.7vw;
+            color: #ffffff;
+            
+        }
+        p{
+            display: flex;
+            color: #ffffff;
+            letter-spacing: 0.08vw;
+            font-family: 'ponur', sans-serif;
+            font-size: 0.58vw;
+            font-weight: 700;
+            
+        }
+    }
+
+    .menu1__navigation-shop{
+        display: flex;
+        margin-left: auto;
+        align-items: center;
+        display: flex;
+        gap: 0.4vw;
+
+        span{
+           fill: #ffffff;
+            display: flex;
+            font-size: 0.7vw;
+            color: #ffffff;
+            
+        }
+        p{
+            display: flex;
+            color: #ffffff;
+            letter-spacing: 0.08vw;
+            font-family: 'ponur', sans-serif;
+            font-size: 0.58vw;
+            font-weight: 700;
+        }
+    }
+  }
