@@ -16,13 +16,34 @@
   align-items: center;
 }
 
+.menu1__currency {
+  align-items: center;
+  display: flex;
+}
 .menu1__currency .menu1__currency-country {
   display: flex;
   margin-left: 1vw;
+  align-items: center;
 }
 .menu1__currency .menu1__currency-country img {
   width: 1vw;
   height: 1vw;
+}
+.menu1__currency .menu1__currency-name {
+  margin-left: 0.4vw;
+}
+.menu1__currency .menu1__currency-name span {
+  font-family: Arial, sans-serif;
+  color: white;
+  font-weight: 600;
+  font-size: 0.8vw;
+}
+.menu1__currency .menu1__currency-icon {
+  margin-left: 0.35vw;
+}
+.menu1__currency .menu1__currency-icon img {
+  height: 0.5vw;
+  width: 0.5vw;
 }
 
 /*# sourceMappingURL=menu1.css.map */
