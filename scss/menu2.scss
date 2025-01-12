@@ -22,72 +22,113 @@
 
 .menu2__navbar-itemdaily {
    
-   
-
     button{
-        padding: 0.4vw 0.9vw;
-        border-radius: 0.35vw;
-        background-color: rgba(63, 146, 255, 0.192);
-        align-items: center;
-        cursor: pointer;
-        border-color: rgba(63, 146, 255, 0.192);
-
-
+    cursor: pointer;
+    padding: 0.4vw 0.9vw;
+    border-radius: 0.35vw;
+    background-color: rgba(63, 146, 255, 0.123);
+    align-items: center;
+    border-color: rgba(63, 146, 255, 0.192);
+    display: flex;
+    gap: 0.2vw;
     }
     
-
     p{
-        font-family: "ponur", sans-serif;
-        font-size: 1vw;
-        font-weight: bold;
-   
-        color: rgb(63, 146, 255);
-        
+    font-weight: bold;
+    color: rgb(63, 146, 255);
+    display: flex;
     }
-    
+
+    span {
+    fill: rgb(63, 146, 255);
+    display: flex;
+    font-size: 0.7vw;
+    color: rgb(63, 146, 255);
+    }
 }
+
+.menu2__navbar-itemdaily:hover{
+    border-radius: 0.35vw;
+    background-color: rgba(63, 146, 255, 0.062); 
+}
+
 
 .menu2__navbar-itempromo {
     
-   
-    
-     button{
-        padding: 0.4vw 0.9vw;
+    button{
+    cursor: pointer;
+    padding: 0.4vw 0.9vw;
     border-radius: 0.35vw;
     background-color: rgba(251, 255, 0, 0.082);
     align-items: center;
-    cursor: pointer;
     border-color: rgba(251, 255, 0, 0.144);
+    animation: border-blink 2s infinite;
+    display: flex;
+    gap: 0.2vw;
+    }
 
-
-     }
-     p{
-        font-weight: bold;
-   
+    p{
+    font-weight: bold;
     color: rgb(251, 255, 0);
-     }
+    }
 }
+
+.menu2__navbar-itempromo:hover{
+    border-radius: 0.35vw;
+    background-color: rgba(251, 255, 0, 0.048); 
+}
+
+
+@keyframes border-blink {
+    0% {
+        border-color: transparent;
+    }
+    50% {
+        border-color: rgba(251, 255, 0, 0.637);
+    }
+    100% {
+        border-color: transparent;
+    }
+}
+
 
 .menu2__navbar-itemexp {
 
     button{
-        cursor: pointer;
+    cursor: pointer;
     border-color: rgba(16, 255, 36, 0.11);
     padding: 0.4vw 0.9vw;
     border-radius: 0.35vw;
     background-color: rgba(16, 255, 36, 0.062);
     align-items: center;
+    display: flex;
+    gap: 0.4vw;
+    }
+
+    p{
+    display: flex;
+    font-weight: bold;
     color: rgb(0, 255, 21);
+    }
+
+    span {
+    fill: rgb(0, 255, 21);
+    display: flex;
+    font-size: 0.7vw;
+    color: rgb(0, 255, 21);
+    }
 }
+
+.menu2__navbar-itemexp:hover{
+    border-radius: 0.35vw;
+    background-color: rgba(16, 255, 36, 0.041); 
+}
+
 
 .menu2__navbar-socialmedia{
-
     display: flex;
     gap: 1vw;
-    
 }
-
-
 
 .menu2__navbar-socialmedia-facebook{
 
