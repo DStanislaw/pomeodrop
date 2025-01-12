@@ -4,7 +4,7 @@ This project focuses on recreating websites, starting with G4Skins. It is a coll
 
 Technologies Used
 HTML
-SASS
+SCSS
 JavaScript
 CSS
 Feel free to contribute or provide feedback as we continue to develop and refine this project!
