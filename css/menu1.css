@@ -4,6 +4,7 @@
   font-style: normal;
 }
 .menu1 {
+  align-items: center;
   display: flex;
   height: 3.5vw;
   position: relative;
@@ -14,7 +15,6 @@
 .menu1__logo {
   display: flex;
   margin-left: 0.8vw;
-  align-items: center;
 }
 .menu1__logo img {
   height: 2vw;
@@ -58,7 +58,7 @@
   display: flex;
   margin-left: auto;
   gap: 1vw;
-  padding-right: 20rem;
+  padding-right: 2rem;
 }
 .menu1__navigation .menu1__navigation-event {
   display: flex;
@@ -110,13 +110,14 @@
   gap: 0.4vw;
 }
 .menu1__navigation .menu1__navigation-battles span {
+  transform: rotate(90deg);
   display: flex;
   font-size: 0.7vw;
-  color: #03b31b;
+  color: #61d871;
 }
 .menu1__navigation .menu1__navigation-battles p {
   display: flex;
-  color: #03b31b;
+  color: #61d871;
   letter-spacing: 0.08vw;
   font-family: "ponur", sans-serif;
   font-size: 0.58vw;
@@ -130,6 +131,7 @@
   gap: 0.4vw;
 }
 .menu1__navigation .menu1__navigation-contract span {
+  transform: rotate(90deg);
   fill: #ffffff;
   display: flex;
   font-size: 0.7vw;
@@ -163,6 +165,28 @@
   font-family: "ponur", sans-serif;
   font-size: 0.58vw;
   font-weight: 700;
+}
+
+.menu1__steamlogin {
+  width: 12.3vw;
+  height: 2.2vw;
+  border-radius: 0.3vw;
+  background-color: #589404;
+  align-items: center;
+  display: flex;
+  margin-right: 0.55vw;
+}
+.menu1__steamlogin .menu1__steamlogin-icon {
+  display: flex;
+  align-items: center;
+}
+.menu1__steamlogin .menu1__steamlogin-name {
+  display: flex;
+  align-items: center;
+}
+.menu1__steamlogin .menu1__steamlogin-years {
+  display: flex;
+  align-items: center;
 }
 
 /*# sourceMappingURL=menu1.css.map */

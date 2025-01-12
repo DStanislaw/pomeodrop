@@ -1,28 +1,27 @@
 @use "_variables";
 @font-face {
-    font-family: 'ponur';
-    src: url('../design/fonts/Fontspring-DEMO-billie-bold.otf') format('otf')
-        
+  font-family: "ponur";
+  src: url("../design/fonts/Fontspring-DEMO-billie-bold.otf") format("otf")
     font-weight normal;
-    font-style: normal;
-  }
+  font-style: normal;
+}
 
 .menu1 {
+  align-items: center;
   display: flex;
   height: 3.5vw;
   position: relative;
   width: 100vw;
-  background-color: variables.$blue_ponur;
+  background-color: variables.$menu1_background;
 }
 
 .menu1__logo {
   display: flex;
   margin-left: 0.8vw;
 
-  align-items: center;
+  
   img {
     height: 2vw;
-    
   }
 }
 
@@ -36,7 +35,6 @@
     align-items: center;
     border: 0.1vw solid rgb(255, 255, 255);
     border-radius: 50%;
-   
 
     img {
       width: 1vw;
@@ -57,145 +55,161 @@
   .menu1__currency-icon {
     margin-left: 0.35vw;
     transform: rotate(90deg);
-    
-   
 
-   span{
-    color: #ffff;
-    font-size: 0.5vw;
-   
-   }
+    span {
+      color: #ffff;
+      font-size: 0.5vw;
+    }
   }
-
- 
 }
-.menu1__navigation{
-   
-    align-items: center;
+.menu1__navigation {
+  align-items: center;
+  display: flex;
+  margin-left: auto;
+  gap: 1vw;
+  padding-right: 2rem;
+
+  .menu1__navigation-event {
     display: flex;
     margin-left: auto;
-    gap: 1vw;
-    padding-right: 20rem;
-    
-    .menu1__navigation-event{
-        display: flex;
-        margin-left: auto;
-        align-items: center;
-        display: flex;
-        gap: 0.4vw;
+    align-items: center;
+    display: flex;
+    gap: 0.4vw;
 
-        span{
-           fill: #ee9b01;
-            display: flex;
-            font-size: 0.7vw;
-            color: #ee9b01;
-            
-        }
-        p{
-            letter-spacing: 0.08vw;
-            font-family: 'ponur', sans-serif;
-            font-size: 0.58vw;
-            font-weight: 700;
-            display: flex;
-            color: #ee9b01;
-            
-        }
+    span {
+      fill: #ee9b01;
+      display: flex;
+      font-size: 0.7vw;
+      color: #ee9b01;
     }
-
-    .menu1__navigation-chests{
-        display: flex;
-        margin-left: auto;
-        align-items: center;
-        display: flex;
-        gap: 0.4vw;
-
-        span{
-           fill: #ffffff;
-            display: flex;
-            font-size: 0.7vw;
-            color: #ffffff;
-            
-        }
-        p{
-            display: flex;
-            color: #ffffff;
-            letter-spacing: 0.08vw;
-            font-family: 'ponur', sans-serif;
-            font-size: 0.58vw;
-            font-weight: 700;
-        }
-    }
-    .menu1__navigation-battles{
-        display: flex;
-        margin-left: auto;
-        align-items: center;
-        display: flex;
-        gap: 0.4vw;
-
-        span{
-          
-            display: flex;
-            font-size: 0.7vw;
-            color: #03b31b;
-            
-        }
-        p{
-            display: flex;
-            color: #03b31b;
-            letter-spacing: 0.08vw;
-            font-family: 'ponur', sans-serif;
-            font-size: 0.58vw;
-            font-weight: 700;
-        }
-    }
-
-
-    .menu1__navigation-contract{
-        display: flex;
-        margin-left: auto;
-        align-items: center;
-        display: flex;
-        gap: 0.4vw;
-
-        span{
-           fill: #ffffff;
-            display: flex;
-            font-size: 0.7vw;
-            color: #ffffff;
-            
-        }
-        p{
-            display: flex;
-            color: #ffffff;
-            letter-spacing: 0.08vw;
-            font-family: 'ponur', sans-serif;
-            font-size: 0.58vw;
-            font-weight: 700;
-            
-        }
-    }
-
-    .menu1__navigation-shop{
-        display: flex;
-        margin-left: auto;
-        align-items: center;
-        display: flex;
-        gap: 0.4vw;
-
-        span{
-           fill: #ffffff;
-            display: flex;
-            font-size: 0.7vw;
-            color: #ffffff;
-            
-        }
-        p{
-            display: flex;
-            color: #ffffff;
-            letter-spacing: 0.08vw;
-            font-family: 'ponur', sans-serif;
-            font-size: 0.58vw;
-            font-weight: 700;
-        }
+    p {
+      letter-spacing: 0.08vw;
+      font-family: "ponur", sans-serif;
+      font-size: 0.58vw;
+      font-weight: 700;
+      display: flex;
+      color: #ee9b01;
     }
   }
+
+  .menu1__navigation-chests {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    display: flex;
+    gap: 0.4vw;
+
+    span {
+      fill: #ffffff;
+      display: flex;
+      font-size: 0.7vw;
+      color: #ffffff;
+    }
+    p {
+      display: flex;
+      color: #ffffff;
+      letter-spacing: 0.08vw;
+      font-family: "ponur", sans-serif;
+      font-size: 0.58vw;
+      font-weight: 700;
+    }
+  }
+  .menu1__navigation-battles {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    display: flex;
+    gap: 0.4vw;
+
+    span {
+      transform: rotate(90deg);
+      display: flex;
+      font-size: 0.7vw;
+      color: #61d871;
+    }
+    p {
+      display: flex;
+      color: #61d871;
+      letter-spacing: 0.08vw;
+      font-family: "ponur", sans-serif;
+      font-size: 0.58vw;
+      font-weight: 700;
+    }
+  }
+
+  .menu1__navigation-contract {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    display: flex;
+    gap: 0.4vw;
+
+    span {
+      transform: rotate(90deg);
+      fill: #ffffff;
+      display: flex;
+      font-size: 0.7vw;
+      color: #ffffff;
+    }
+    p {
+      display: flex;
+      color: #ffffff;
+      letter-spacing: 0.08vw;
+      font-family: "ponur", sans-serif;
+      font-size: 0.58vw;
+      font-weight: 700;
+    }
+  }
+
+  .menu1__navigation-shop {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    display: flex;
+    gap: 0.4vw;
+
+    span {
+      fill: #ffffff;
+      display: flex;
+      font-size: 0.7vw;
+      color: #ffffff;
+    }
+    p {
+      display: flex;
+      color: #ffffff;
+      letter-spacing: 0.08vw;
+      font-family: "ponur", sans-serif;
+      font-size: 0.58vw;
+      font-weight: 700;
+    }
+  }
+
+}
+.menu1__steamlogin{
+  width: 12.3vw;
+  height: 2.2vw;
+  border-radius: 0.3vw;
+  background-color: #589404;
+  align-items: center;
+  display: flex;
+  margin-right: 0.55vw;
+  
+  
+
+  .menu1__steamlogin-icon{
+    display: flex;
+    align-items: center;
+  }
+
+  .menu1__steamlogin-name{
+    display: flex;
+    align-items: center;
+  }
+
+  .menu1__steamlogin-years{
+    display: flex;
+    align-items: center;
+  }
+
+}
+
