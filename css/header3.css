@@ -12,7 +12,6 @@
 .header3 .header3__line {
   width: clamp(0.05rem, 0.1vw, 0.1rem);
   height: clamp(2rem, 4vh, 2.5rem);
-  background: #E1E2E8;
 }
 .header3 .header3__menu-logo-container {
   display: flex;
@@ -36,9 +35,8 @@
   background-color: #2e2e2e;
 }
 .header3__menu {
-  width: 24px;
-  height: 24px;
-  background-color: #3b4d61;
+  width: 2vw;
+  height: 2vw;
 }
 .header3__logo {
   width: 24px;

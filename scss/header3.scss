@@ -12,7 +12,7 @@
   .header3__line {
     width: clamp(0.05rem, 0.1vw, 0.1rem); // Adjust width using clamp
     height: clamp(2rem, 4vh, 2.5rem); // Adjust height using clamp
-    background: #E1E2E8;
+    
   }
   
 
@@ -42,9 +42,9 @@
 
 
   &__menu {
-    width: 24px;
-    height: 24px;
-    background-color: #3b4d61;
+    width: 2vw;
+    height: 2vw;
+   
     
     
   }
