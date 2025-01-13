@@ -57,7 +57,7 @@
   align-items: center;
   display: flex;
   margin-left: auto;
-  gap: 1vw;
+  gap: 1.6vw;
   padding-right: 2rem;
 }
 .menu1__navigation .menu1__navigation-event {
@@ -174,7 +174,43 @@
   background-color: #589404;
   align-items: center;
   display: flex;
-  margin-right: 0.75vw;
+  right: 1vw;
+  position: relative;
+}
+.menu1__steamlogin::after {
+  content: "";
+  width: 9.2vw;
+  height: 1.7vw;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  left: -0.1vw;
+  transform-origin: center;
+  border: 0.7vw solid rgba(73, 122, 4, 0.2549019608);
+  border-radius: 0.7vw;
+  animation: pulse 1.3s infinite;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 2;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 1.4;
+  }
+  60% {
+    transform: scale(1.15);
+    opacity: 0.5;
+  }
+  70% {
+    transform: scale(1.17);
+    opacity: 0.2;
+  }
+  100% {
+    transform: scale(1.2);
+    opacity: 0;
+  }
 }
 .menu1__steamlogin .menu1__steamlogin-icon {
   display: flex;
