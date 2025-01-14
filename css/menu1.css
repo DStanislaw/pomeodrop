@@ -100,7 +100,7 @@
   letter-spacing: 0.08vw;
   font-family: "ponur", sans-serif;
   font-size: 0.58vw;
-  font-weight: 700;
+  font-weight: 550;
 }
 .menu1__navigation .menu1__navigation-battles {
   display: flex;
@@ -121,7 +121,7 @@
   letter-spacing: 0.08vw;
   font-family: "ponur", sans-serif;
   font-size: 0.58vw;
-  font-weight: 700;
+  font-weight: 550;
 }
 .menu1__navigation .menu1__navigation-contract {
   display: flex;
@@ -143,7 +143,7 @@
   letter-spacing: 0.08vw;
   font-family: "ponur", sans-serif;
   font-size: 0.58vw;
-  font-weight: 700;
+  font-weight: 550;
 }
 .menu1__navigation .menu1__navigation-shop {
   display: flex;
@@ -151,6 +151,7 @@
   align-items: center;
   display: flex;
   gap: 0.4vw;
+  margin-right: 1vw;
 }
 .menu1__navigation .menu1__navigation-shop span {
   fill: #ffffff;
@@ -164,7 +165,7 @@
   letter-spacing: 0.08vw;
   font-family: "ponur", sans-serif;
   font-size: 0.58vw;
-  font-weight: 700;
+  font-weight: 550;
 }
 
 .menu1__steamlogin {

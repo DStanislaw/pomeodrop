@@ -8,7 +8,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 0.6vw 0.6vw;
-  background-color: #161924;
+  background-color: rgba(29, 32, 44, 0.3098039216);
 }
 
 .menu2__navbar-item {
