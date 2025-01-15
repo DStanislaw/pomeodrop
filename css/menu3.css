@@ -82,7 +82,7 @@
   background-image: url("../design/photos/astralis-csgo-cs-go-counter-strike.webp");
   background-size: cover;
   background-position: center;
-  animation: scrollLeft 50s linear infinite; /* Dodanie animacji */
+  animation: scrollLeft 50s linear infinite;
 }
 .gallery__image {
   max-width: 100%;
@@ -141,4 +141,4 @@
   }
 }
 
-/*# sourceMappingURL=header3.css.map */
+/*# sourceMappingURL=menu3.css.map */
