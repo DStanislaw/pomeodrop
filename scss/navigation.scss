@@ -24,7 +24,13 @@
         display: flex;
         align-items: center;
         gap: 0.6vw;
+        transition: background-color 0.4s ease, color 0.4s ease
         
+    }
+
+    button:hover{
+
+        background-color: #222936;
     }
 
     .main__navigation-gemscase-button-login{
@@ -74,7 +80,13 @@
         display: flex;
         align-items: center;
         gap: 0.6vw;
+        transition: background-color 0.4s ease, color 0.4s ease
 
+    }
+
+    button:hover{
+
+        background-color: #222936;
     }
 
     .main__navigation-gemscase-button-login{
