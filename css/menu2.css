@@ -8,7 +8,15 @@
   align-items: center;
   justify-content: space-between;
   padding: 0.6vw 0.6vw;
-  background-color: rgba(29, 32, 44, 0.3098039216);
+  background-color: #1b1f2b;
+}
+.menu2__navbar::before {
+  content: "";
+  position: absolute;
+  top: 3.51vw;
+  width: 100%;
+  height: 0.65vw;
+  background: linear-gradient(to bottom, #191c27 13%, #1b1f2b 100%);
 }
 
 .menu2__navbar-item {
