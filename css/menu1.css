@@ -225,6 +225,11 @@
   height: 0.8vw;
   margin-left: 0.99vw;
 }
+.menu1__steamlogin .menu1__steamlogin-icon span {
+  color: white;
+  margin-left: 1vw;
+  font-size: 0.8vw;
+}
 .menu1__steamlogin .menu1__steamlogin-name {
   display: flex;
   align-items: center;
