@@ -5,3 +5,171 @@
     font-weight normal;
   font-style: normal;
 }
+
+.main__event {
+  margin-top: 1vw;
+
+  .main__event-baner {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+    .main__event__baner-baner {
+      align-items: center;
+      position: absolute;
+      display: flex;
+
+      img {
+        border-radius: 1vw;
+      }
+    }
+
+    .main__event__baner-render1 {
+      position: absolute;
+      width: 15vw;
+      height: auto;
+      top: -1vw;
+    }
+
+    .main__event__baner-logo {
+      position: absolute;
+      left: 50%;
+      top: 5vw;
+      transform: translate(-50%, -50%);
+
+      img {
+        width: 20vw;
+        height: 4vw;
+      }
+    }
+    .main__event__baner-render2 {
+      position: absolute;
+      right: 1vw;
+      top: -1vw;
+    }
+
+    .main__event__baner-countdown {
+      .main__event__baner__countdown-days {
+        position: absolute;
+        width: 2.8vw;
+        height: 2.8vw;
+        border-radius: 0.5vw;
+        background-color: rgba(2, 2, 2, 0.527);
+        left: 27vw;
+        top: 8vw;
+
+        span {
+          font-family: "ponur", sans-serif;
+          font-weight: 600;
+          position: relative;
+          top: 0.3vw;
+          color: #ffff;
+          align-items: center;
+          justify-content: center;
+          display: flex;
+          font-size: 1.3vw;
+        }
+        p {
+          font-family: "ponur", sans-serif;
+          color: #b4a8a8;
+          align-items: center;
+          display: flex;
+          justify-content: center;
+          font-size: 0.7vw;
+        }
+      }
+      .main__event__baner__countdown-hrs {
+        position: absolute;
+        width: 2.8vw;
+        height: 2.8vw;
+        border-radius: 0.5vw;
+        background-color: rgba(2, 2, 2, 0.527);
+        left: 30.5vw;
+        top: 8vw;
+
+        span {
+          font-weight: 600;
+          font-family: "ponur", sans-serif;
+          position: relative;
+          top: 0.3vw;
+          font-size: 1.3vw;
+          color: #ffff;
+          align-items: center;
+          justify-content: center;
+          display: flex;
+        }
+        p {
+          font-family: "ponur", sans-serif;
+          color: #b4a8a8;
+          align-items: center;
+          display: flex;
+          justify-content: center;
+          font-size: 0.7vw;
+        }
+      }
+      .main__event__baner__countdown-min {
+        position: absolute;
+        width: 2.8vw;
+        height: 2.8vw;
+        border-radius: 0.5vw;
+        background-color: rgba(2, 2, 2, 0.527);
+        left: 34vw;
+        top: 8vw;
+
+        span {
+          font-weight: 600;
+          font-family: "ponur", sans-serif;
+          position: relative;
+          top: 0.3vw;
+          font-size: 1.3vw;
+          
+         
+          color: #ffff;
+
+          justify-content: center;
+          display: flex;
+        }
+        p {
+          font-family: "ponur", sans-serif;
+          color: #b4a8a8;
+          align-items: center;
+          display: flex;
+          justify-content: center;
+          font-size: 0.7vw;
+        }
+      }
+      .main__event__baner__countdown-sec {
+        position: absolute;
+        width: 2.8vw;
+        height: 2.8vw;
+        border-radius: 0.5vw;
+        background-color: rgba(2, 2, 2, 0.527);
+        left: 37.5vw;
+        top: 8vw;
+
+        span {
+          font-weight: 600;
+          font-family: "ponur", sans-serif;
+          position: relative;
+          top: 0.3vw;
+          font-size: 1.3vw;
+          color: #ffff;
+          align-items: center;
+          justify-content: center;
+          display: flex;
+        }
+        p {
+          font-family: "ponur", sans-serif;
+          color: #b4a8a8;
+          align-items: center;
+          display: flex;
+          justify-content: center;
+          font-size: 0.7vw;
+        }
+      }
+    }
+
+    .main__event__baner-button {
+    }
+  }
+}
