@@ -34,6 +34,7 @@
   align-items: center;
   justify-content: center;
   display: flex;
+  border-color: #263f38;
 }
 .main__navigation-gemscase .main__navigation-gemscase-button-login p {
   font-weight: bold;
@@ -51,7 +52,7 @@
   background-color: rgba(35, 40, 51, 0.431372549);
   background-size: 7vw;
   border: none;
-  width: 25vw;
+  width: 25.4vw;
   height: 4.4vw;
   cursor: pointer;
   background-position: right;
@@ -75,6 +76,7 @@
   align-items: center;
   justify-content: center;
   display: flex;
+  border-color: #263f38;
 }
 .main__navigation-destinycase .main__navigation-gemscase-button-login p {
   font-weight: bold;
@@ -92,7 +94,7 @@
   background-color: #1b212f;
   background-size: 7vw;
   border: none;
-  width: 25vw;
+  width: 25.3vw;
   height: 4.4vw;
   cursor: pointer;
   background-position: right;
