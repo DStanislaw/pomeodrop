@@ -21,7 +21,7 @@
   cursor: pointer;
   width: 7.2vw;
   height: 1.9vw;
-  padding: 0.4vw 0.9vw;
+  justify-content: center;
   border-radius: 0.35vw;
   background-color: rgba(63, 146, 255, 0.123);
   align-items: center;
@@ -50,10 +50,10 @@
 
 .menu2__navbar-itempromo button {
   cursor: pointer;
-  width: 8.7vw;
+  width: 8vw;
   height: 1.9vw;
-  padding: 0.4vw 0.9vw;
   border-radius: 0.35vw;
+  justify-content: center;
   background-color: rgba(251, 255, 0, 0.082);
   align-items: center;
   border-color: rgba(251, 255, 0, 0.144);
@@ -95,7 +95,7 @@
   border-color: rgba(16, 255, 36, 0.11);
   width: 7.2vw;
   height: 1.9vw;
-  padding: 0.4vw 0.9vw;
+  justify-content: center;
   border-radius: 0.35vw;
   border: 1vw;
   background-color: rgba(16, 255, 36, 0.062);
@@ -124,6 +124,7 @@
 .menu2__navbar-socialmedia {
   display: flex;
   gap: 1vw;
+  align-items: center;
 }
 
 .menu2__navbar-socialmedia-facebook {
