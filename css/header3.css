@@ -1,8 +1,9 @@
 .header3 {
+  margin-bottom: 0.4vw;
   position: sticky;
   top: 0;
   width: 100%;
-  background-color: #181c24;
+  background-color: #151920;
   height: auto;
   display: flex;
   align-items: center;

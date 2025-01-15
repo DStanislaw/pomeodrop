@@ -4,18 +4,34 @@
   font-style: normal;
 }
 .menu4 {
+  border-top: 0.15vw solid rgba(97, 108, 135, 0.1450980392);
+  border-bottom: 0.15vw solid rgba(97, 108, 135, 0.1450980392);
   align-items: center;
   display: flex;
   height: 2.5vw;
   width: 100vw;
-  background-color: #181c24;
+  background-color: #151920;
 }
 .menu4 .menu4__part1 {
-  border: 1vw #616c87;
+  height: 2.5vw;
+  justify-content: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 25vw;
+  position: relative;
+}
+.menu4 .menu4__part1::after {
+  content: "";
+  position: absolute;
+  justify-content: center;
+  display: flex;
+  right: 0;
+  height: 2.3vw;
+  width: 0.6vw;
+  background-color: rgba(97, 108, 135, 0.1450980392);
+  transform: scaleX(0.1);
+  transform-origin: right;
 }
 .menu4 .menu4__part1 .menu4__part1-top {
   display: flex;
@@ -51,10 +67,25 @@
   font-size: 0.5vw;
 }
 .menu4 .menu4__part2 {
+  position: relative;
+  height: 2.5vw;
+  justify-content: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 25vw;
+}
+.menu4 .menu4__part2::after {
+  content: "";
+  position: absolute;
+  justify-content: center;
+  display: flex;
+  right: 0;
+  height: 2.3vw;
+  width: 0.6vw;
+  background-color: rgba(97, 108, 135, 0.1450980392);
+  transform: scaleX(0.1);
+  transform-origin: right;
 }
 .menu4 .menu4__part2 .menu4__part2-top {
   display: flex;
@@ -87,10 +118,25 @@
   font-size: 0.5vw;
 }
 .menu4 .menu4__part3 {
+  position: relative;
+  height: 2.5vw;
+  justify-content: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 25vw;
+}
+.menu4 .menu4__part3::after {
+  content: "";
+  position: absolute;
+  justify-content: center;
+  display: flex;
+  right: 0;
+  height: 2.3vw;
+  width: 0.6vw;
+  background-color: rgba(97, 108, 135, 0.1450980392);
+  transform: scaleX(0.1);
+  transform-origin: right;
 }
 .menu4 .menu4__part3 .menu4__part3-top {
   display: flex;
@@ -123,6 +169,8 @@
   font-size: 0.5vw;
 }
 .menu4 .menu4__part4 {
+  height: 2.5vw;
+  justify-content: center;
   display: flex;
   flex-direction: column;
   align-items: center;

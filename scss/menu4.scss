@@ -7,20 +7,41 @@
 }
 
 .menu4 {
+ 
+  border-top: 0.15vw solid variables.$border_color;
+  border-bottom: 0.15vw solid variables.$border_color;
   align-items: center;
   display: flex;
   height: 2.5vw;
 
   width: 100vw;
   background-color: variables.$menu4_background;
+ 
+  
 
   .menu4__part1 {
-    border: 1vw #616c87;
-   
+    height: 2.5vw;
+    justify-content: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 25vw;
+    position: relative;
+    
+    &::after {
+      content: "";
+      position: absolute;
+      justify-content: center;
+      display: flex;
+      right: 0;
+      
+      height: 2.3vw;
+      width: 0.6vw; 
+      background-color: #616c8725;
+      transform: scaleX(0.1);
+      transform-origin: right;
+    }
+    
 
     .menu4__part1-top {
       display: flex;
@@ -50,7 +71,6 @@
     }
     .menu4__part1-online {
       position: relative;
-     
 
       p {
         letter-spacing: 0.01vw;
@@ -61,10 +81,26 @@
     }
   }
   .menu4__part2 {
+    position: relative;
+    height: 2.5vw;
+    justify-content: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 25vw;
+    &::after {
+      content: "";
+      position: absolute;
+      justify-content: center;
+      display: flex;
+      right: 0;
+      
+      height: 2.3vw;
+      width: 0.6vw; 
+      background-color: #616c8725;
+      transform: scaleX(0.1);
+      transform-origin: right;
+    }
 
     .menu4__part2-top {
       display: flex;
@@ -81,11 +117,10 @@
       }
     }
     .menu4__part2-amount {
-        display: inline-block;
+      display: inline-block;
 
-        bottom: 0.2vw;
+      bottom: 0.2vw;
       p {
-        
         font-family: "ponur", sans-serif;
         color: #ffff;
         font-weight: 300;
@@ -102,10 +137,26 @@
     }
   }
   .menu4__part3 {
+    position: relative;
+    height: 2.5vw;
+    justify-content: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 25vw;
+    &::after {
+      content: "";
+      position: absolute;
+      justify-content: center;
+      display: flex;
+      right: 0;
+      
+      height: 2.3vw;
+      width: 0.6vw; 
+      background-color: #616c8725;
+      transform: scaleX(0.1);
+      transform-origin: right;
+    }
 
     .menu4__part3-top {
       display: flex;
@@ -122,9 +173,9 @@
       }
     }
     .menu4__part3-amount {
-        display: inline-block;
+      display: inline-block;
 
-        bottom: 0.2vw;
+      bottom: 0.2vw;
       p {
         font-family: "ponur", sans-serif;
         color: #ffff;
@@ -142,6 +193,8 @@
     }
   }
   .menu4__part4 {
+    height: 2.5vw;
+    justify-content: center;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -153,9 +206,8 @@
     }
     .menu4__part4-icon {
       margin-right: 0.3vw;
-      
+
       span {
-       
         position: relative;
         top: 0.15vw;
         display: flex;
@@ -164,9 +216,9 @@
       }
     }
     .menu4__part4-amount {
-        display: inline-block;
+      display: inline-block;
 
-        bottom: 0.2vw;
+      bottom: 0.2vw;
 
       p {
         font-family: "ponur", sans-serif;
