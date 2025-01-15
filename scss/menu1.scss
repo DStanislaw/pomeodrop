@@ -44,6 +44,7 @@
 
   .menu1__currency-name {
     margin-left: 0.4vw;
+    display: flex;
 
     span {
       font-family: Arial, sans-serif;
@@ -53,6 +54,7 @@
     }
   }
   .menu1__currency-icon {
+    display: flex;
     margin-left: 0.35vw;
     transform: rotate(90deg);
 
@@ -210,8 +212,8 @@
    transform-origin: center;
    
     
-    border: 0.7vw solid #497a0441;
-    border-radius: 0.7vw; 
+    border: 0.63vw solid #497a0441;
+    border-radius: 0.6vw; 
     animation: pulse 1.3s infinite; 
   }
 
@@ -236,7 +238,7 @@
       opacity: 0.2; 
     }
     100% {
-      transform: scale(1.2); 
+      transform: scale(1.18); 
       opacity: 0;           
     }
   }

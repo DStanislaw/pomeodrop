@@ -37,6 +37,7 @@
 }
 .menu1__currency .menu1__currency-name {
   margin-left: 0.4vw;
+  display: flex;
 }
 .menu1__currency .menu1__currency-name span {
   font-family: Arial, sans-serif;
@@ -45,6 +46,7 @@
   font-size: 0.8vw;
 }
 .menu1__currency .menu1__currency-icon {
+  display: flex;
   margin-left: 0.35vw;
   transform: rotate(90deg);
 }
@@ -187,8 +189,8 @@
   position: absolute;
   left: -0.1vw;
   transform-origin: center;
-  border: 0.7vw solid rgba(73, 122, 4, 0.2549019608);
-  border-radius: 0.7vw;
+  border: 0.63vw solid rgba(73, 122, 4, 0.2549019608);
+  border-radius: 0.6vw;
   animation: pulse 1.3s infinite;
 }
 @keyframes pulse {
@@ -209,7 +211,7 @@
     opacity: 0.2;
   }
   100% {
-    transform: scale(1.2);
+    transform: scale(1.18);
     opacity: 0;
   }
 }

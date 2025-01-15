@@ -11,6 +11,7 @@
   background-color: #181c24;
 }
 .menu4 .menu4__part1 {
+  border: 1vw #616c87;
   display: flex;
   flex-direction: column;
   align-items: center;
