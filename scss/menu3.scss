@@ -14,7 +14,6 @@
     height: clamp(2rem, 4vh, 6.38vw); 
     color: #6e6e6e;
   }
-  
 
   .header3__menu-logo-container {
     display: flex;
@@ -36,26 +35,21 @@
         right: 0;
         height: 1px;
         width: 4vw; 
-        background-color: #ccc; 
+        background-color: variables.$seperator_color; 
         position: absolute;
       }
     }
   }
   .header3__menu-line{
-    width: clamp(0.05rem, 0.3vw, 0.5rem); 
+    width: clamp(0.02rem, 0.1vw, 0.2rem); 
 height: clamp(2rem, 18vh, 10.5rem); 
-background: #E1E2E8;
-
+background: variables.$seperator_color;
   }
-
   &__menu {
     width: 2vw;
     height: 2vw;
     font-size: 1.8vw;
     color: rgb(67, 138, 230);
-   
-    
-    
   }
 
   &__logo {
@@ -71,17 +65,13 @@ background: #E1E2E8;
       transition: color 0.3s ease, transform 0.3s ease; 
     }
   }
-  
-
-
-
-  }
+}
   .gallery {
     display: flex;
-    justify-content: flex-start; /* Ustaw początek */
-    gap: 0; /* Usuń odstępy między elementami */
+    justify-content: flex-start; 
+    gap: 0; 
     padding: 0.1vw;
-    overflow: hidden; /* Ukryj elementy wychodzące poza kontener */
+    overflow: hidden; 
   
     &__item {
       background-color: #1e1e1e;
@@ -145,7 +135,6 @@ background: #E1E2E8;
           transform: translateX(-3000%);
         }
       }
-      
     }
   
   
