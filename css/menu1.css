@@ -8,7 +8,7 @@
   display: flex;
   height: 3.5vw;
   position: relative;
-  width: 100vw;
+  width: 100%;
   background-color: #1b1f2b;
 }
 
@@ -61,7 +61,7 @@
   display: flex;
   margin-left: auto;
   gap: 1.3vw;
-  padding-right: 1.3vw;
+  margin-right: 1.3vw;
 }
 .menu1__navigation .menu1__navigation-event {
   display: flex;

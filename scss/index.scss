@@ -9,8 +9,14 @@ body{
 }
 
 .menu2__menu3-seperator{
-    width: 100vw;
+    width: 100%;
     
     height: 0.07vw;
     background-color: variables.$seperator_color;
+}
+
+main{
+
+    margin-left: 10vw;
+    margin-right: 10vw;
 }
