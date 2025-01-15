@@ -60,8 +60,8 @@
   align-items: center;
   display: flex;
   margin-left: auto;
-  gap: 1.6vw;
-  padding-right: 2vw;
+  gap: 1.3vw;
+  padding-right: 1.3vw;
 }
 .menu1__navigation .menu1__navigation-event {
   display: flex;
