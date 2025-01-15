@@ -7,7 +7,8 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0.6vw 0.6vw;
+  height: 3.4vw;
+  width: 100vw;
   background-color: #1b1f2b;
 }
 .menu2__navbar::before {
@@ -22,33 +23,34 @@
 .menu2__navbar-item {
   padding: 0.3vw 0.6vw;
   display: flex;
-  gap: 1vw;
+  gap: 0.8vw;
+  margin-left: 0.7vw;
 }
 
 .menu2__navbar-itemdaily button {
   cursor: pointer;
-  width: 7.2vw;
+  width: 6.5vw;
   height: 1.9vw;
   justify-content: center;
-  border-radius: 0.35vw;
-  background-color: rgba(63, 146, 255, 0.123);
+  border-radius: 0.4vw;
+  background-color: #1f2536;
   align-items: center;
   border: 1vw;
   border-color: rgba(63, 146, 255, 0.192);
   display: flex;
-  gap: 0.3vw;
+  gap: 0.4vw;
 }
 .menu2__navbar-itemdaily p {
   font-weight: bold;
-  color: rgb(63, 146, 255);
+  color: #599bf9;
   display: flex;
-  font-size: 0.7vw;
+  font-size: 0.6vw;
 }
 .menu2__navbar-itemdaily span {
-  fill: rgb(63, 146, 255);
+  fill: #599bf9;
   display: flex;
   font-size: 0.7vw;
-  color: rgb(63, 146, 255);
+  color: #599bf9;
 }
 
 .menu2__navbar-itemdaily:hover {
@@ -58,28 +60,29 @@
 
 .menu2__navbar-itempromo button {
   cursor: pointer;
-  width: 8vw;
+  width: 7vw;
   height: 1.9vw;
-  border-radius: 0.35vw;
+  border-radius: 0.4vw;
   justify-content: center;
-  background-color: rgba(251, 255, 0, 0.082);
+  background-color: #27292f;
   align-items: center;
   border-color: rgba(251, 255, 0, 0.144);
   animation: border-blink 2s infinite;
   display: flex;
-  gap: 0.5vw;
+  gap: 0.4vw;
+  border-width: 0.105vw;
 }
 .menu2__navbar-itempromo p {
   font-weight: bold;
-  color: rgb(251, 255, 0);
-  font-size: 0.7vw;
+  color: #f9df6b;
+  font-size: 0.6vw;
   display: flex;
 }
 .menu2__navbar-itempromo span {
-  fill: rgb(251, 255, 0);
+  fill: #f9df6b;
   display: flex;
-  font-size: 0.7vw;
-  color: rgb(251, 255, 0);
+  font-size: 0.6vw;
+  color: #f9df6b;
 }
 
 .menu2__navbar-itempromo:hover {
@@ -100,13 +103,13 @@
 }
 .menu2__navbar-itemexp button {
   cursor: pointer;
-  border-color: rgba(16, 255, 36, 0.11);
-  width: 7.2vw;
+  border-color: #1f282f;
+  width: 6.25vw;
   height: 1.9vw;
   justify-content: center;
-  border-radius: 0.35vw;
+  border-radius: 0.4vw;
   border: 1vw;
-  background-color: rgba(16, 255, 36, 0.062);
+  background-color: #1f282f;
   align-items: center;
   display: flex;
   gap: 0.4vw;
@@ -114,14 +117,14 @@
 .menu2__navbar-itemexp p {
   display: flex;
   font-weight: bold;
-  color: rgb(0, 255, 21);
-  font-size: 0.7vw;
+  color: #56c76b;
+  font-size: 0.6vw;
 }
 .menu2__navbar-itemexp span {
-  fill: rgb(0, 255, 21);
+  fill: #56c76b;
   display: flex;
-  font-size: 0.7vw;
-  color: rgb(0, 255, 21);
+  font-size: 0.6vw;
+  color: #56c76b;
 }
 
 .menu2__navbar-itemexp:hover {
@@ -133,6 +136,8 @@
   display: flex;
   gap: 1vw;
   align-items: center;
+  justify-content: center;
+  margin-right: 1.4vw;
 }
 
 .menu2__navbar-socialmedia-facebook {
