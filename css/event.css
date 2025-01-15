@@ -13,17 +13,21 @@
 }
 .main__event .main__event-baner .main__event__baner-baner {
   align-items: center;
-  position: absolute;
   display: flex;
 }
 .main__event .main__event-baner .main__event__baner-baner img {
   border-radius: 1vw;
+  width: 78vw;
 }
 .main__event .main__event-baner .main__event__baner-render1 {
   position: absolute;
   width: 15vw;
   height: auto;
   top: -1vw;
+}
+.main__event .main__event-baner .main__event__baner-render1 img {
+  width: 21vw;
+  height: 14vw;
 }
 .main__event .main__event-baner .main__event__baner-logo {
   position: absolute;
@@ -39,6 +43,10 @@
   position: absolute;
   right: 1vw;
   top: -1vw;
+}
+.main__event .main__event-baner .main__event__baner-render2 img {
+  width: 21vw;
+  height: 14vw;
 }
 .main__event .main__event-baner .main__event__baner-countdown .main__event__baner__countdown-days {
   position: absolute;
@@ -150,6 +158,38 @@
   display: flex;
   justify-content: center;
   font-size: 0.7vw;
+}
+.main__event .main__event-baner .main__event__baner-button {
+  width: 10vw;
+  height: 2.8vw;
+  position: absolute;
+  margin-left: 1vw;
+  border-radius: 0.5vw;
+  background-color: #ff1434;
+  left: 40.5vw;
+  top: 8vw;
+}
+.main__event .main__event-baner .main__event__baner-button span {
+  letter-spacing: 0.05vw;
+  font-weight: 600;
+  font-family: "ponur", sans-serif;
+  color: #ffffff;
+  top: 0.95vw;
+  right: 0.6vw;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  font-size: 0.7vw;
+}
+.main__event .main__event-baner .main__event__baner-button i {
+  font-weight: 600;
+  color: #ffffff;
+  top: 0.05vw;
+  left: 3.5vw;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  font-size: 1vw;
 }
 
 /*# sourceMappingURL=event.css.map */
