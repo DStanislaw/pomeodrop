@@ -8,4 +8,11 @@ body {
   background-color: #181c24;
 }
 
+.menu2__menu3-seperator {
+  width: 100vw;
+  margin-top: 0.1vw;
+  height: 0.03vw;
+  background-color: #3c445c;
+}
+
 /*# sourceMappingURL=index.css.map */
