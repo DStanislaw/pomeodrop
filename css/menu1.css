@@ -17,7 +17,7 @@
   margin-left: 0.8vw;
 }
 .menu1__logo img {
-  height: 2vw;
+  height: 1.87vw;
 }
 
 .menu1__currency {
@@ -26,17 +26,17 @@
 }
 .menu1__currency .menu1__currency-country {
   display: flex;
-  margin-left: 1vw;
+  margin-left: 0.9vw;
   align-items: center;
-  border: 0.1vw solid rgb(255, 255, 255);
+  margin-top: -0.1vw;
   border-radius: 50%;
 }
 .menu1__currency .menu1__currency-country img {
-  width: 1vw;
-  height: 1vw;
+  width: 0.84vw;
+  height: 0.84vw;
 }
 .menu1__currency .menu1__currency-name {
-  margin-left: 0.4vw;
+  margin-left: 0.3vw;
   display: flex;
 }
 .menu1__currency .menu1__currency-name span {
@@ -46,6 +46,7 @@
   font-size: 0.8vw;
 }
 .menu1__currency .menu1__currency-icon {
+  margin-top: -0.22vw;
   display: flex;
   margin-left: 0.35vw;
   transform: rotate(90deg);
@@ -60,7 +61,7 @@
   display: flex;
   margin-left: auto;
   gap: 1.6vw;
-  padding-right: 2rem;
+  padding-right: 2vw;
 }
 .menu1__navigation .menu1__navigation-event {
   display: flex;
