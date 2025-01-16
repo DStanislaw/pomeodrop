@@ -1,5 +1,5 @@
 .header3 {
-  position: sticky;
+  position: relative;
   top: 0;
   background-color: #161921;
   height: auto;
@@ -74,7 +74,7 @@
   align-items: center;
   justify-content: center;
   aspect-ratio: 1;
-  background-image: url("../design/photos/Ratsy/background-ratsypurply.png");
+  background-image: url("../design/photos/Ratsy/ratsypurple.png");
   background-size: cover;
   background-position: center;
   animation: scrollLeft 50s linear infinite;
