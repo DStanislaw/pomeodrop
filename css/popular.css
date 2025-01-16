@@ -76,6 +76,9 @@
   display: flex;
   gap: 0.6vw;
 }
+.main__popularweapons-div-buy span {
+  font-size: 0.8vw;
+}
 
 .main__popularweapons-div-buy-text {
   display: flex;
