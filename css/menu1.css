@@ -13,6 +13,7 @@
 }
 
 .menu1__logo {
+  cursor: pointer;
   display: flex;
   margin-left: 0.8vw;
   transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
@@ -46,6 +47,7 @@
   display: flex;
 }
 .menu1__currency .menu1__currency-country {
+  cursor: pointer;
   display: flex;
   margin-left: 0.9vw;
   align-items: center;
@@ -57,6 +59,7 @@
   height: 0.84vw;
 }
 .menu1__currency .menu1__currency-name {
+  cursor: pointer;
   margin-left: 0.3vw;
   display: flex;
 }
@@ -67,6 +70,7 @@
   font-size: 0.8vw;
 }
 .menu1__currency .menu1__currency-icon {
+  cursor: pointer;
   margin-top: -0.22vw;
   display: flex;
   margin-left: 0.35vw;
@@ -89,6 +93,7 @@
   margin-right: 1.3vw;
 }
 .menu1__navigation .menu1__navigation-event {
+  cursor: pointer;
   display: flex;
   margin-left: auto;
   align-items: center;
@@ -110,6 +115,7 @@
   color: #ee9b01;
 }
 .menu1__navigation .menu1__navigation-chests {
+  cursor: pointer;
   display: flex;
   margin-left: auto;
   align-items: center;
@@ -131,6 +137,7 @@
   font-weight: 550;
 }
 .menu1__navigation .menu1__navigation-battles {
+  cursor: pointer;
   display: flex;
   margin-left: auto;
   align-items: center;
@@ -152,6 +159,7 @@
   font-weight: 550;
 }
 .menu1__navigation .menu1__navigation-contract {
+  cursor: pointer;
   display: flex;
   margin-left: auto;
   align-items: center;
@@ -174,6 +182,7 @@
   font-weight: 550;
 }
 .menu1__navigation .menu1__navigation-shop {
+  cursor: pointer;
   display: flex;
   margin-left: auto;
   align-items: center;
@@ -197,6 +206,7 @@
 }
 
 .menu1__steamlogin {
+  cursor: pointer;
   width: 10.3vw;
   height: 2.2vw;
   border-radius: 0.3vw;
