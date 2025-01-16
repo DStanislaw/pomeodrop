@@ -192,6 +192,9 @@
   justify-content: center;
   font-size: 1vw;
 }
+.main__event .main__event-baner .main__event__baner-button:hover {
+  background-color: #ff253f;
+}
 .main__event .main__event-sorting {
   background-color: #1a1e2b;
   width: 78vw;
