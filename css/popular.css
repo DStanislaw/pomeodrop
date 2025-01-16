@@ -1,0 +1,56 @@
+.main__popular {
+  background: linear-gradient(rgba(25, 26, 33, 0.3019607843), rgba(25, 26, 33, 0.8705882353), #1f1b22, #291e22, #3b2225);
+  width: 78vw;
+  height: 16vw;
+  margin-bottom: 5vw;
+  margin-top: 2vw;
+  border-radius: 2vw;
+}
+
+.main__populartop {
+  display: flex;
+  position: relative;
+  gap: 59.2vw;
+}
+
+.main__populartop-text {
+  margin-left: 1.4vw;
+  margin-top: 1.2vw;
+  gap: 0.8vw;
+  display: flex;
+}
+.main__populartop-text p {
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  font-size: 1.2vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.main__populartop-text span {
+  font-size: 1.2vw;
+  color: rgb(255, 94, 0);
+}
+
+.main__populartop-button {
+  width: 8.2vw;
+  height: 2.3vw;
+  border-radius: 0.4vw;
+  margin-top: 0.6vw;
+  background-color: #101319;
+  border: #101319;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.6vw;
+}
+.main__populartop-button p {
+  font-weight: bold;
+  color: white;
+  font-size: 0.75vw;
+}
+.main__populartop-button i {
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 0.8vw;
+}
+
+/*# sourceMappingURL=popular.css.map */
