@@ -165,11 +165,20 @@
     align-items: center;
     justify-content: center;
     margin-right: 1.4vw;
+
+    i{
+        color: #616d86;
+        font-size: 1.2vw;
+    }
+    
+    
 }
 
 .menu2__navbar-socialmedia-facebook{
 
     height: 1.1vw;
+   
+   
 }
 
 .menu2__navbar-socialmedia-instagram{
@@ -180,6 +189,9 @@
 .menu2__navbar-socialmedia-x{
 
     height: 1.1vw;
+    span{
+        
+    }
 }
 
 .menu2__navbar-socialmedia-tiktok{
