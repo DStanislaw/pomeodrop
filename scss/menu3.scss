@@ -1,6 +1,6 @@
 @use '_variables';
 .header3 {
-  position: sticky;
+  position: relative;
   top: 0;
   
   background-color: variables.$menu4_background;
@@ -81,7 +81,7 @@ background: variables.$seperator_color;
       align-items: center;
       justify-content: center;
       aspect-ratio: 1;
-      background-image: url('../design/photos/Ratsy/background-ratsypurply.png'); 
+      background-image: url('../design/photos/Ratsy/ratsypurple.png'); 
       background-size: cover;
       background-position: center;
       animation: scrollLeft 50s linear infinite; 
