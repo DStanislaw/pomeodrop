@@ -1,10 +1,10 @@
 .main__popular {
-  background: linear-gradient(rgba(25, 26, 33, 0.3019607843), rgba(25, 26, 33, 0.8705882353), #1f1b22, #291e22, #3b2225);
+  background: linear-gradient(rgba(25, 26, 33, 0.3019607843), #1f1b22, #291e22, #3b2225);
   width: 78vw;
   height: 19vw;
   margin-bottom: 5vw;
   margin-top: 2vw;
-  border-radius: 2vw;
+  border-radius: 1.5vw;
 }
 
 .main__populartop {
@@ -86,7 +86,7 @@
   align-items: center;
 }
 
-.main__popularweapons-1-wear {
+.main__popularweapons-wear {
   position: absolute;
   margin-top: -3vw;
   margin-left: 10vw;
@@ -209,25 +209,25 @@
 .main__popularweapons-grey {
   color: #6f6f6f;
   font-size: 0.7vw;
-  font-weight: bold;
+  font-weight: 750;
 }
 
 .main__popularweapons-purple {
   color: #743eda;
   font-size: 0.7vw;
-  font-weight: bold;
+  font-weight: 750;
 }
 
 .main__popularweapons-pink {
   color: #af29c0;
   font-size: 0.7vw;
-  font-weight: bold;
+  font-weight: 750;
 }
 
 .main__popularweapons-gold {
   color: #fad200;
   font-size: 0.7vw;
-  font-weight: bold;
+  font-weight: 750;
 }
 
 /*# sourceMappingURL=popular.css.map */
