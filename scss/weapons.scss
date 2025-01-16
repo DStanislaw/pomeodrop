@@ -88,13 +88,17 @@
         border-radius: 1vw;
         border: 0.1vw solid #3a4355;
         .main__weapons__chests__milspec-png{
+            position: relative;
+            left: -2vw;
+            top: -0.8vw;
             img{
-                width: 10vw;
+                width: 16vw;
                 height: auto;
             }
 
         }
         .main__weapons__chests__milspec-name{
+            position: relative;
             
         }
         .main__weapons__chests__milspec-price{
