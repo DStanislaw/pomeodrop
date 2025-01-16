@@ -18,17 +18,12 @@
         .main__weapons__title-line1{
             cursor: pointer;
             width: 78vw;
-            
             height: 0.1vw;
             background: linear-gradient(to right, #3a4355, rgba(58, 67, 85, 0));
             position: relative;
-            
-            
-           
             top: 50%;
             transform: translateY(-50%);
             z-index: 1; 
-
         }
         .main__weapons__title-icon1{
             cursor: pointer;
