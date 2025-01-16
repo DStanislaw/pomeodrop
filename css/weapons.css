@@ -53,5 +53,24 @@
   cursor: pointer;
   color: #f1f1f1;
 }
+.main__weapons .main__weapons-chests .main__weapons__chests-milspec {
+  margin-top: 2.5vw;
+  width: 12vw;
+  height: 12vw;
+  border-radius: 1vw;
+  border: 0.1vw solid #3a4355;
+}
+.main__weapons .main__weapons-chests .main__weapons__chests-milspec .main__weapons__chests__milspec-png {
+  position: relative;
+  left: -2vw;
+  top: -0.8vw;
+}
+.main__weapons .main__weapons-chests .main__weapons__chests-milspec .main__weapons__chests__milspec-png img {
+  width: 16vw;
+  height: auto;
+}
+.main__weapons .main__weapons-chests .main__weapons__chests-milspec .main__weapons__chests__milspec-name {
+  position: relative;
+}
 
 /*# sourceMappingURL=weapons.css.map */
