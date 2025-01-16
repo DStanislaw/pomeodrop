@@ -20,11 +20,37 @@
 .menu1__logo {
   display: flex;
   margin-left: 0.8vw;
+  transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
 
   
   img {
     height: 1.87vw;
+    transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+    transform-origin: center left;
   }
+
+  &:hover {
+    animation: bounceOnce 0.5s ease-out forwards;
+    transform: perspective(80vw) rotateX(10deg) rotateY(-10deg); 
+  }
+  @keyframes bounceOnce {
+    0% {
+      transform: perspective(80vw) rotateX(0deg) rotateY(0deg) scale(1); 
+      
+    }
+    40% {
+      transform: perspective(80vw) rotateX(5deg) rotateY(-5deg) scale(0.95); 
+    }
+    60% {
+      transform: perspective(80vw) rotateX(12deg) rotateY(-12deg)scale(0.90); 
+    }
+    100% {
+      transform: perspective(80vw) rotateX(10deg) rotateY(-10deg) scale(1); 
+    }
+  }
+  
+
+ 
 }
 
 .menu1__currency {
@@ -61,6 +87,11 @@
     display: flex;
     margin-left: 0.35vw;
     transform: rotate(90deg);
+    transition: transform 0.3s ease;
+
+    &:hover{
+      transform: rotate(270deg);
+    }
     
 
     span {
