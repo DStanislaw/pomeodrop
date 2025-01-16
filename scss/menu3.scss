@@ -29,8 +29,8 @@
     &::before{
       content: '';
       position: absolute;
-      top: -1.15vw; 
-      bottom: -1.17vw; 
+      top: -3.75vw; 
+      bottom: -3.77vw; 
       right: -1.88vw; 
       width: 0.1vw;
       height: auto; 
@@ -47,10 +47,10 @@
         content: '';
         position: absolute;
         bottom: -0.4vw; 
-        left: -2vw;
+        left: -3vw;
         right: 0;
         height: 0.08vw;
-        width: 6vw; 
+        width: 6.9vw; 
         background-color: variables.$seperator_color; 
         position: absolute;
       }
@@ -62,17 +62,21 @@ height: clamp(2rem, 18vh, 10.5rem);
 background: variables.$seperator_color;
   }
   &__menu {
-    width: 2vw;
+    width: 2.6vw;
     height: 2vw;
-    font-size: 1.8vw;
+    margin-top: -2.2vw;
+    right: -0.6vw;
+    font-size: 1.2vw;
     color: rgb(67, 138, 230);
   }
 
   &__logo {
-    width: 2vw;
-    height: 2vw;
-    margin-top: 0.5vw;
-    font-size: 1.2vw;
+    width: 1.32vw;
+    height: 1.5vw;
+    right: -1.1vw;
+    margin-top: 0.8vw;
+    margin-bottom: -2.7vw;
+    font-size: 0.8vw;
     color: rgb(248, 248, 248); 
     
     &:hover {
