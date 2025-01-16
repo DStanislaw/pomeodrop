@@ -139,6 +139,10 @@
   justify-content: center;
   margin-right: 1.4vw;
 }
+.menu2__navbar-socialmedia i {
+  color: #616d86;
+  font-size: 1.2vw;
+}
 
 .menu2__navbar-socialmedia-facebook {
   height: 1.1vw;
@@ -151,7 +155,6 @@
 .menu2__navbar-socialmedia-x {
   height: 1.1vw;
 }
-
 .menu2__navbar-socialmedia-tiktok {
   height: 1.1vw;
 }
