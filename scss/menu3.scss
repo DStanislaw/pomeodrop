@@ -7,7 +7,7 @@
   height: auto; 
   display: flex;
   align-items: center;
-  padding: 0 16px;
+  margin-left: 0.3vw;
   
   .header3__line {
     width: clamp(0.1rem, 6.38vw, 4.5rem);
@@ -18,11 +18,11 @@
   .header3__menu-logo-container {
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 0.8vw;
     align-items: center;
-    margin-right: 13px;
+    margin-right: 0.7vw;
     position: relative;
-    padding: 12px 0;
+    
 
     & > *:not(:last-child) { 
       position: relative;
@@ -30,10 +30,10 @@
       &::after {
         content: '';
         position: absolute;
-        bottom: -4px; 
+        bottom: -0.4vw; 
         left: -1vw;
         right: 0;
-        height: 1px;
+        height: 0.08vw;
         width: 4vw; 
         background-color: variables.$seperator_color; 
         position: absolute;

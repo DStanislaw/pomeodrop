@@ -5,7 +5,7 @@
   height: auto;
   display: flex;
   align-items: center;
-  padding: 0 16px;
+  margin-left: 0.3vw;
 }
 .header3 .header3__line {
   width: clamp(0.1rem, 6.38vw, 4.5rem);
@@ -15,11 +15,10 @@
 .header3 .header3__menu-logo-container {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 0.8vw;
   align-items: center;
-  margin-right: 13px;
+  margin-right: 0.7vw;
   position: relative;
-  padding: 12px 0;
 }
 .header3 .header3__menu-logo-container > *:not(:last-child) {
   position: relative;
@@ -27,10 +26,10 @@
 .header3 .header3__menu-logo-container > *:not(:last-child)::after {
   content: "";
   position: absolute;
-  bottom: -4px;
+  bottom: -0.4vw;
   left: -1vw;
   right: 0;
-  height: 1px;
+  height: 0.08vw;
   width: 4vw;
   background-color: #3a4355;
   position: absolute;
