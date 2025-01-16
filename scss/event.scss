@@ -285,14 +285,17 @@
         border-bottom: 0.1vw solid #5a9ffe;
         border-right: 0.1vw solid #5a9ffe;
         border-radius: 0 0.5vw 0.5vw 0;
+        transition: background-color 1.3s ease, border-color 1.3s ease, color 1.3s ease;
 
         span{
           color: #ffffff;
+          transition: color 0.3s ease;
 
         }
 
 
         p{
+          transition: color 0.3s ease;
           margin-left: 0.6vw;
           color: #ffffff;
           font-weight: 600;
@@ -300,6 +303,15 @@
           font-size: 0.7vw;
           letter-spacing: 0.01vw;
 
+        }
+        &:hover{
+          p{
+            color: #5a9ffe;;
+
+          }
+          span{
+          color: #5a9ffe;
+        }
         }
 
     
@@ -316,17 +328,27 @@
 
       height: 2.4vw;
       width: 2.4vw;
-      background-color: #282434;
+      background-color: #222634;
       margin-left: 0.8vw;
       border-radius: 0.5vw;
       border: 0.1vw solid #616d86;
+      transition: background-color 1s ease, border-color 1s ease;
       span{
+         transition: color 1s ease;
         color: #616d86;
+        
         
         
         
       }
      
+      &:hover{
+        background-color: #615a3f; 
+        border-color: #ffe56c;
+        span{
+        color: #ffe56c;}
+      }
+
 
 
 
@@ -361,6 +383,14 @@
 
       }
 
+      &:hover{
+        background-color: #13141c; 
+        border-color: #616d86;
+        i{
+        color: #4e86d9;
+      }
+      }
+
     }
 
     .main__event__sorting-minprice{
@@ -390,6 +420,13 @@
         font-size: 1vw;
         cursor: pointer;
 
+      }
+      &:hover{
+        background-color: #13141c; 
+        border-color: #616d86;
+        i{
+        color: #4e86d9;
+      }
       }
 
       
@@ -438,6 +475,13 @@
         cursor: pointer;
 
       }
+      &:hover{
+        background-color: #13141c; 
+        border-color: #616d86;
+        i{
+        color: #4e86d9;
+      }
+      }
       
     }
 
@@ -479,6 +523,27 @@
       margin-left: 5.6vw;
      
 
+    }
+    &:hover{
+      background-color: #13141c; 
+      border-color: #616d86;
+      i{
+      color: #4e86d9;
+    }
+    }
+  }
+
+  .main__event__sorting-rubbericon{
+    cursor: pointer;
+    color: #3f4c68;
+    margin-left:9.5vw;
+    font-size: 1.2vw;
+
+    &:hover{
+      
+      i{
+      color: #4e86d9;
+    }
     }
   }
  

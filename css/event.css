@@ -244,17 +244,26 @@
   border-bottom: 0.1vw solid #5a9ffe;
   border-right: 0.1vw solid #5a9ffe;
   border-radius: 0 0.5vw 0.5vw 0;
+  transition: background-color 1.3s ease, border-color 1.3s ease, color 1.3s ease;
 }
 .main__event .main__event-sorting .main__event__sorting-categories .main__event__sorting-categories-users span {
   color: #ffffff;
+  transition: color 0.3s ease;
 }
 .main__event .main__event-sorting .main__event__sorting-categories .main__event__sorting-categories-users p {
+  transition: color 0.3s ease;
   margin-left: 0.6vw;
   color: #ffffff;
   font-weight: 600;
   font-family: "ponur", sans-serif;
   font-size: 0.7vw;
   letter-spacing: 0.01vw;
+}
+.main__event .main__event-sorting .main__event__sorting-categories .main__event__sorting-categories-users:hover p {
+  color: #5a9ffe;
+}
+.main__event .main__event-sorting .main__event__sorting-categories .main__event__sorting-categories-users:hover span {
+  color: #5a9ffe;
 }
 .main__event .main__event-sorting .main__event__sorting-favorites {
   cursor: pointer;
@@ -263,13 +272,22 @@
   align-items: center;
   height: 2.4vw;
   width: 2.4vw;
-  background-color: #282434;
+  background-color: #222634;
   margin-left: 0.8vw;
   border-radius: 0.5vw;
   border: 0.1vw solid #616d86;
+  transition: background-color 1s ease, border-color 1s ease;
 }
 .main__event .main__event-sorting .main__event__sorting-favorites span {
+  transition: color 1s ease;
   color: #616d86;
+}
+.main__event .main__event-sorting .main__event__sorting-favorites:hover {
+  background-color: #615a3f;
+  border-color: #ffe56c;
+}
+.main__event .main__event-sorting .main__event__sorting-favorites:hover span {
+  color: #ffe56c;
 }
 .main__event .main__event-sorting .main__event__sorting-sort {
   display: flex;
@@ -297,6 +315,13 @@
   margin-right: 0.7vw;
   font-size: 0.7vw;
 }
+.main__event .main__event-sorting .main__event__sorting-sort:hover {
+  background-color: #13141c;
+  border-color: #616d86;
+}
+.main__event .main__event-sorting .main__event__sorting-sort:hover i {
+  color: #4e86d9;
+}
 .main__event .main__event-sorting .main__event__sorting-minprice {
   display: flex;
   justify-content: space-between;
@@ -322,6 +347,13 @@
   margin-right: 0.7vw;
   font-size: 1vw;
   cursor: pointer;
+}
+.main__event .main__event-sorting .main__event__sorting-minprice:hover {
+  background-color: #13141c;
+  border-color: #616d86;
+}
+.main__event .main__event-sorting .main__event__sorting-minprice:hover i {
+  color: #4e86d9;
 }
 .main__event .main__event-sorting .main__event__sorting-distributor {
   width: 1.2vw;
@@ -360,6 +392,13 @@
   font-size: 1vw;
   cursor: pointer;
 }
+.main__event .main__event-sorting .main__event__sorting-maxprice:hover {
+  background-color: #13141c;
+  border-color: #616d86;
+}
+.main__event .main__event-sorting .main__event__sorting-maxprice:hover i {
+  color: #4e86d9;
+}
 .main__event .main__event-sorting .main__event__sorting-casename {
   display: flex;
   align-items: center;
@@ -388,6 +427,22 @@
 }
 .main__event .main__event-sorting .main__event__sorting-casename .main__event__sorting__casename-icon2 {
   margin-left: 5.6vw;
+}
+.main__event .main__event-sorting .main__event__sorting-casename:hover {
+  background-color: #13141c;
+  border-color: #616d86;
+}
+.main__event .main__event-sorting .main__event__sorting-casename:hover i {
+  color: #4e86d9;
+}
+.main__event .main__event-sorting .main__event__sorting-rubbericon {
+  cursor: pointer;
+  color: #3f4c68;
+  margin-left: 9.5vw;
+  font-size: 1.2vw;
+}
+.main__event .main__event-sorting .main__event__sorting-rubbericon:hover i {
+  color: #4e86d9;
 }
 
 /*# sourceMappingURL=event.css.map */
