@@ -34,6 +34,7 @@
             
 
             img{
+                width: 2vw;
                 position: relative;
                 top: 0.6vw;
                 left: 0.6vw;
@@ -52,6 +53,7 @@
             height: 1.5vw;
             background-color: #161921;
             left: 16vw;
+            font-size: 1.2vw;
             
 
             span{
@@ -67,8 +69,10 @@
             
         }
         .main__weapons__title-icon2{
+            font-size: 1.2vw;
 
             i{
+                font-size: 1.2vw;
                 cursor: pointer;
                 color: #f1f1f1;
             }
@@ -161,6 +165,7 @@
             align-items: center;
             left: 1vw;
             top: 10vw;
+            font-size: 0.8vw;
             span{
                 letter-spacing: 0.05vw;
                 color: #ffff;
@@ -176,6 +181,7 @@
             align-items: center;
             left: 8vw;
             top: 10vw;
+            font-size: 0.8vw;
             span{
                 letter-spacing: 0.05vw;
                 color: #5dd871;

@@ -27,6 +27,7 @@
   left: 13vw;
 }
 .main__weapons .main__weapons-title .main__weapons__title-icon1 img {
+  width: 2vw;
   position: relative;
   top: 0.6vw;
   left: 0.6vw;
@@ -42,6 +43,7 @@
   height: 1.5vw;
   background-color: #161921;
   left: 16vw;
+  font-size: 1.2vw;
 }
 .main__weapons .main__weapons-title .main__weapons__title-text span {
   font-size: 1.2vw;
@@ -49,7 +51,11 @@
   font-family: "ponur", sans-serif;
   font-weight: 600;
 }
+.main__weapons .main__weapons-title .main__weapons__title-icon2 {
+  font-size: 1.2vw;
+}
 .main__weapons .main__weapons-title .main__weapons__title-icon2 i {
+  font-size: 1.2vw;
   cursor: pointer;
   color: #f1f1f1;
 }
@@ -119,6 +125,7 @@
   align-items: center;
   left: 1vw;
   top: 10vw;
+  font-size: 0.8vw;
 }
 .main__weapons .main__weapons-chests-line1 .main__weapons__chests-milspec .main__weapons__chests__milspec-name span {
   letter-spacing: 0.05vw;
@@ -132,6 +139,7 @@
   align-items: center;
   left: 8vw;
   top: 10vw;
+  font-size: 0.8vw;
 }
 .main__weapons .main__weapons-chests-line1 .main__weapons__chests-milspec .main__weapons__chests__milspec-price span {
   letter-spacing: 0.05vw;
