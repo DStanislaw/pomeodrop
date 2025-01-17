@@ -139,7 +139,7 @@ background: variables.$seperator_color;
   &__image {
     max-width: 80%;
     max-height: 80%;
-    margin-bottom: 1vw;
+    margin-bottom: 0.5vw;
   }
 
   &__label {
@@ -152,7 +152,7 @@ background: variables.$seperator_color;
   &__condition-purple{
     display: block;
     color: rgb(136, 71, 255);
-    font-size: 0.8vw; 
+    font-size: 0.75vw; 
     margin-top: 0.2vw; 
 
 
@@ -160,32 +160,35 @@ background: variables.$seperator_color;
   &__condition-pink{
     display: block;
     color: rgb(211, 46, 230);
-    font-size: 0.8vw; 
+    font-size: 0.75vw; 
     margin-top: 0.2vw; 
-
+    font-weight: bold;
 
   }
   &__condition-red{
     display: block;
     color: rgb(235, 75, 75);
-    font-size: 0.8vw; 
+    font-size: 0.75vw; 
     margin-top: 0.2vw; 
+    font-weight: bold;
 
 
   }
   &__condition-purple{
     display: block;
     color: rgb(136, 71, 255);
-    font-size: 0.8vw; 
+    font-size: 0.75vw; 
     margin-top: 0.2vw; 
+    font-weight: bold;
 
 
   }
   &__condition-gold{
     display: block;
     color: rgb(255, 215, 0);
-    font-size: 0.8vw; 
+    font-size: 0.75vw; 
     margin-top: 0.2vw; 
+    font-weight: bold;
 
 
   }
