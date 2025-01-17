@@ -94,6 +94,22 @@
   background-size: cover;
   background-position: center;
   animation: scrollLeft 50s linear infinite;
+  position: relative;
+  overflow: hidden;
+}
+.gallery__item__item-rat::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: inherit;
+  background-size: clamp(20%, 10vw, 40%);
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.5;
+  z-index: -1;
 }
 .gallery .gallery__item::before {
   content: "";
