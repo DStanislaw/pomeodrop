@@ -39,13 +39,20 @@
   border-color: rgba(63, 146, 255, 0.192);
   display: flex;
   gap: 0.4vw;
+  transition: background-color 0.35s ease, color 0.35s ease;
 }
+
+.menu2__navbar-itemdaily button:hover {
+  background-color: #212c40;
+}
+
 .menu2__navbar-itemdaily p {
   font-weight: bold;
   color: #599bf9;
   display: flex;
   font-size: 0.6vw;
 }
+
 .menu2__navbar-itemdaily span {
   fill: #599bf9;
   display: flex;
@@ -71,13 +78,20 @@
   display: flex;
   gap: 0.4vw;
   border-width: 0.105vw;
+  transition: background-color 0.35s ease, color 0.35s ease;
 }
+
+.menu2__navbar-itempromo button:hover {
+  background-color: #323332;
+}
+
 .menu2__navbar-itempromo p {
   font-weight: bold;
   color: #f9df6b;
   font-size: 0.6vw;
   display: flex;
 }
+
 .menu2__navbar-itempromo span {
   fill: #f9df6b;
   display: flex;
@@ -113,13 +127,20 @@
   align-items: center;
   display: flex;
   gap: 0.4vw;
+  transition: background-color 0.35s ease, color 0.35s ease;
 }
+
+.menu2__navbar-itemexp button:hover {
+  background-color: #213233;
+}
+
 .menu2__navbar-itemexp p {
   display: flex;
   font-weight: bold;
   color: #56c76b;
   font-size: 0.6vw;
 }
+
 .menu2__navbar-itemexp span {
   fill: #56c76b;
   display: flex;

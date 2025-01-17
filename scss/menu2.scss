@@ -33,9 +33,8 @@
     margin-left: 0.7vw;
 }
 
-.menu2__navbar-itemdaily {
-   
-    button{
+.menu2__navbar-itemdaily button {
+
     cursor: pointer;
     width: 6.5vw;
     height: 1.9vw;
@@ -47,22 +46,28 @@
     border-color: rgba(63, 146, 255, 0.192);
     display: flex;
     gap: 0.4vw;
+    transition: background-color 0.35s ease, color 0.35s ease;
     }
     
-    p{
+    .menu2__navbar-itemdaily button:hover{
+    
+        background-color: #212c40;    
+      }
+
+    .menu2__navbar-itemdaily p{
     font-weight: bold;
     color: #599bf9;
     display: flex;
     font-size: 0.6vw;
     }
 
-    span {
+    .menu2__navbar-itemdaily span {
     fill: #599bf9;
     display: flex;
     font-size: 0.7vw;
     color: #599bf9;
     }
-}
+
 
 .menu2__navbar-itemdaily:hover{
     border-radius: 0.35vw;
@@ -70,9 +75,7 @@
 }
 
 
-.menu2__navbar-itempromo {
-    
-    button{
+.menu2__navbar-itempromo button{
     cursor: pointer;
     width: 7vw;
     height: 1.9vw;
@@ -85,9 +88,15 @@
     display: flex;
     gap: 0.4vw;
     border-width: 0.105vw;
+    transition: background-color 0.35s ease, color 0.35s ease;
     }
 
-    p{
+    .menu2__navbar-itempromo button:hover{
+    
+    background-color: #323332;    
+    }
+
+    .menu2__navbar-itempromo p{
     font-weight: bold;
     color: #f9df6b;
     font-size: 0.6vw;
@@ -95,13 +104,13 @@
     
     }
 
-    span {
+    .menu2__navbar-itempromo span {
     fill: #f9df6b;
     display: flex;
     font-size: 0.6vw;
     color: #f9df6b;
     }
-}
+
 
 .menu2__navbar-itempromo:hover{
     border-radius: 0.35vw;
@@ -122,9 +131,7 @@
 }
 
 
-.menu2__navbar-itemexp {
-
-    button{
+.menu2__navbar-itemexp button{
     cursor: pointer;
     border-color: #1f282f;
     width: 6.25vw;
@@ -136,22 +143,28 @@
     align-items: center;
     display: flex;
     gap: 0.4vw;
+    transition: background-color 0.35s ease, color 0.35s ease;
     }
 
-    p{
+    .menu2__navbar-itemexp button:hover{
+    
+    background-color: #213233;    
+    }
+
+    .menu2__navbar-itemexp p{
     display: flex;
     font-weight: bold;
     color: #56c76b;
     font-size: 0.6vw;
     }
 
-    span {
+    .menu2__navbar-itemexp span {
     fill: #56c76b;
     display: flex;
     font-size: 0.6vw;
     color: #56c76b;
     }
-}
+
 
 .menu2__navbar-itemexp:hover{
     border-radius: 0.35vw;
