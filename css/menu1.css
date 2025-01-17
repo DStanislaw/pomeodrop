@@ -9,6 +9,7 @@
   height: 3.5vw;
   position: relative;
   width: 100%;
+  z-index: 11;
   background-color: #1b1f2b;
 }
 
