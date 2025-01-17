@@ -129,6 +129,38 @@
   font-size: 0.6vw;
   text-align: center;
   color: #ccc;
+  font-weight: bold;
+  display: block;
+}
+.gallery__item__condition-purple {
+  display: block;
+  color: rgb(136, 71, 255);
+  font-size: 0.8vw;
+  margin-top: 0.2vw;
+}
+.gallery__item__condition-pink {
+  display: block;
+  color: rgb(211, 46, 230);
+  font-size: 0.8vw;
+  margin-top: 0.2vw;
+}
+.gallery__item__condition-red {
+  display: block;
+  color: rgb(235, 75, 75);
+  font-size: 0.8vw;
+  margin-top: 0.2vw;
+}
+.gallery__item__condition-purple {
+  display: block;
+  color: rgb(136, 71, 255);
+  font-size: 0.8vw;
+  margin-top: 0.2vw;
+}
+.gallery__item__condition-gold {
+  display: block;
+  color: rgb(255, 215, 0);
+  font-size: 0.8vw;
+  margin-top: 0.2vw;
 }
 @keyframes scrollLeft {
   0% {
