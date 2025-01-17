@@ -126,76 +126,102 @@ span{
 
     .main__popularweapons-1{
         background: url('../design/photos/weapon1.png') no-repeat;
-        background-color: #1a1d22;
         border: #1a1d22;
         height: 13.5vw;
         width: 11.9vw;
-        border-radius: 1vw;
-        position: relative;
-        background-size: 9vw;
-        background-position: 1.5vw 1vw;
-        cursor: pointer;
-    }
-    .main__popularweapons-2{
-        background: url('../design/photos/weapon2.png') no-repeat;
-        background-color: #1c1830;
-        border: #1c1830;
-        height: 13.5vw;
-        width: 11.9vw;
-        border-radius: 1vw;
-        position: relative;
-        background-size: 9vw;
-        background-position: 1.5vw 1vw;
-        cursor: pointer;
-    }
-    .main__popularweapons-3{
-        background: url('../design/photos/weapon3.png') no-repeat;
-        background-color: #25162f;
-        border: #25162f;
-        height: 13.5vw;
-        width: 11.9vw;
-        border-radius: 1vw;
-        position: relative;
-        background-size: 9vw;
-        background-position: 1.5vw 1vw;
-        cursor: pointer;
-    }
-    .main__popularweapons-4{
-        background: url('../design/photos/weapon4.png') no-repeat;
-        background-color: #25162f;
-        border: #25162f;
-        height: 13.5vw;
-        width: 11.9vw;
-        border-radius: 1vw;
-        position: relative;
-        background-size: 9vw;
-        background-position: 1.5vw 1vw;
-        cursor: pointer;
-    }
-    .main__popularweapons-5{
-        background: url('../design/photos/weapon5.png') no-repeat;
-        background-color: #25162f;
-        border: #25162f;
-        height: 13.5vw;
-        width: 11.9vw;
-        border-radius: 1vw;
         position: relative;
         background-size: 9vw;
         background-position: 1.5vw 1vw;
         cursor: pointer;
     }
 
-    .main__popularweapons-6{
-        background: url('../design/photos/weapon6.png') no-repeat;
-        background-color: #292816;
-        border: #292816;
+    .main__popularweapons-1div{
+
+        background: linear-gradient(#14171d, #1f2126);
+        border-radius: 1vw;
+    }
+
+    .main__popularweapons-2{
+        background: url('../design/photos/weapon2.png') no-repeat;
+        border: #1c1830;
         height: 13.5vw;
         width: 11.9vw;
-        border-radius: 1vw;
         position: relative;
         background-size: 9vw;
         background-position: 1.5vw 1vw;
         cursor: pointer;
+    }
+
+    .main__popularweapons-2div{
+
+        background: linear-gradient(#0f0c1a, #221b3a);
+        border-radius: 1vw;
+    }
+
+    .main__popularweapons-3{
+        background: url('../design/photos/weapon3.png') no-repeat;
+        border: #25162f;
+        height: 13.5vw;
+        width: 11.9vw;
+        position: relative;
+        background-size: 9vw;
+        background-position: 1.5vw 1vw;
+        cursor: pointer;
+    }
+
+    .main__popularweapons-3div{
+
+        background: linear-gradient(#16131f, #2d1636);
+        border-radius: 1vw;
+    }
+    .main__popularweapons-4{
+        background: url('../design/photos/weapon4.png') no-repeat;
+        border: #25162f;
+        height: 13.5vw;
+        width: 11.9vw;
+        position: relative;
+        background-size: 9vw;
+        background-position: 1.5vw 1vw;
+        cursor: pointer;
+    }
+
+    .main__popularweapons-4div{
+
+        background: linear-gradient(#16131f, #2d1636);
+        border-radius: 1vw;
+    }
+    .main__popularweapons-5{
+        background: url('../design/photos/weapon5.png') no-repeat;
+        border: #25162f;
+        height: 13.5vw;
+        width: 11.9vw;
+        position: relative;
+        background-size: 9vw;
+        background-position: 1.5vw 1vw;
+        cursor: pointer;
+    }
+
+    .main__popularweapons-5div{
+
+        background: linear-gradient(#16131f, #2d1636);
+        border-radius: 1vw;
+    }
+
+    .main__popularweapons-6{
+        background: url('../design/photos/weapon6.png') no-repeat;
+        border: #292816;
+        height: 13.5vw;
+        width: 11.9vw;
+        position: relative;
+        background-size: 9vw;
+        background-position: 1.5vw 1vw;
+        cursor: pointer;
+    }
+
+    .main__popularweapons-6div{
+
+        background: linear-gradient(#181918, #332f15);
+        border-radius: 1vw;
     }
 
 
