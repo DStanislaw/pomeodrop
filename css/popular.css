@@ -42,6 +42,7 @@
   align-items: center;
   gap: 0.6vw;
   cursor: pointer;
+  transition: background-color 0.35s ease, color 0.35s ease;
 }
 .main__populartop-button p {
   font-weight: bold;
@@ -52,6 +53,11 @@
   font-weight: bold;
   color: #ffffff;
   font-size: 0.8vw;
+}
+
+.main__populartop-button:hover {
+  border-radius: 0.35vw;
+  background-color: #13151b;
 }
 
 .main__popularweapons {
