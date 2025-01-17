@@ -106,8 +106,8 @@ background: variables.$seperator_color;
     background-size: cover;
     background-position: center;
     animation: scrollLeft 50s linear infinite; 
-    position: relative; // Potrzebne, aby pseudoelement `::after` działał poprawnie
-    overflow: hidden; // Zapobiega wyciekaniu tła z elementu
+    position: relative; 
+    overflow: hidden; 
   
     &__item-rat::after {
       content: '';
@@ -116,14 +116,14 @@ background: variables.$seperator_color;
       left: 0;
       right: 0;
       bottom: 0;
-      background-image: inherit; // Dziedziczy tło głównego elementu
-      background-size: clamp(20%, 10vw, 40%); // Responsywna wielkość tła
+      background-image: inherit;
+      background-size: clamp(20%, 10vw, 40%); 
       background-repeat: no-repeat;
       background-position: center;
-      opacity: 0.5; // Opcjonalnie, półprzezroczystość
+      opacity: 0.5; 
       z-index: -1;
   }
- 
+}
 
   .gallery__item::before {
     content: '';
@@ -188,7 +188,6 @@ background: variables.$seperator_color;
     margin-top: 0.2vw; 
 
 
-
   }
 
   @keyframes scrollLeft {
@@ -239,4 +238,3 @@ background: variables.$seperator_color;
       background: #D1D2D8; 
     }
   }
-}

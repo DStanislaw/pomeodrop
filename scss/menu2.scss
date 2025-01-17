@@ -170,9 +170,12 @@
     i{
         color: #616d86;
         font-size: 1.2vw;
+    
+    &:hover{
+        color: #1da1f2; 
+          transform: scale(1);
+        }
     }
-    
-    
 }
 
 .menu2__navbar-socialmedia-facebook{
