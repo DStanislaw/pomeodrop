@@ -116,14 +116,14 @@ background: variables.$seperator_color;
       left: 0;
       right: 0;
       bottom: 0;
-      background-image: inherit; 
-      background-size: clamp(20%, 10vw, 40%); 
+      background-image: inherit; // Dziedziczy tło głównego elementu
+      background-size: clamp(20%, 10vw, 40%); // Responsywna wielkość tła
       background-repeat: no-repeat;
       background-position: center;
-      opacity: 0.5; 
+      opacity: 0.5; // Opcjonalnie, półprzezroczystość
       z-index: -1;
   }
-}
+ 
 
   .gallery__item::before {
     content: '';
@@ -139,7 +139,7 @@ background: variables.$seperator_color;
   &__image {
     max-width: 80%;
     max-height: 80%;
-    margin-bottom: 0.5vw;
+    margin-bottom: 1vw;
   }
 
   &__label {
@@ -153,7 +153,7 @@ background: variables.$seperator_color;
     display: block;
     color: rgb(136, 71, 255);
     font-size: 0.8vw; 
-    margin-top: 0.1vw; 
+    margin-top: 0.2vw; 
 
 
   }
@@ -161,7 +161,7 @@ background: variables.$seperator_color;
     display: block;
     color: rgb(211, 46, 230);
     font-size: 0.8vw; 
-    margin-top: 0.1vw; 
+    margin-top: 0.2vw; 
 
 
   }
@@ -169,7 +169,7 @@ background: variables.$seperator_color;
     display: block;
     color: rgb(235, 75, 75);
     font-size: 0.8vw; 
-    margin-top: 0.1vw; 
+    margin-top: 0.2vw; 
 
 
   }
@@ -177,7 +177,7 @@ background: variables.$seperator_color;
     display: block;
     color: rgb(136, 71, 255);
     font-size: 0.8vw; 
-    margin-top: 0.1vw; 
+    margin-top: 0.2vw; 
 
 
   }
@@ -185,7 +185,7 @@ background: variables.$seperator_color;
     display: block;
     color: rgb(255, 215, 0);
     font-size: 0.8vw; 
-    margin-top: 0.1vw; 
+    margin-top: 0.2vw; 
 
 
   }
@@ -238,3 +238,4 @@ background: variables.$seperator_color;
       background: #D1D2D8; 
     }
   }
+}
