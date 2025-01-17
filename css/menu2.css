@@ -165,6 +165,10 @@
   color: #616d86;
   font-size: 1.2vw;
 }
+.menu2__navbar-socialmedia i:hover {
+  color: #1da1f2;
+  transform: scale(1);
+}
 
 .menu2__navbar-socialmedia-facebook {
   height: 1.1vw;
