@@ -29,8 +29,8 @@
     &::before{
       content: '';
       position: absolute;
-      top: -4.15vw; 
-      bottom: -4.17vw; 
+      top: -3.7vw; 
+      bottom: -3.7vw; 
       right: -1.88vw; 
       width: 0.1vw;
       height: auto; 
@@ -146,6 +146,7 @@ background: variables.$seperator_color;
     font-size: clamp(0.1vw, 0.6vw, 5vw);
     text-align: center;
     color: #ccc;
+<<<<<<< HEAD
     font-weight: bold;
     display: block;
   }
@@ -188,6 +189,8 @@ background: variables.$seperator_color;
     margin-top: 0.2vw; 
 
 
+=======
+>>>>>>> parent of c4197fd (j)
   }
 
   @keyframes scrollLeft {

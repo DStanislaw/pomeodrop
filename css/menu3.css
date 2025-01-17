@@ -26,8 +26,8 @@
 .header3 .header3__menu-logo-container::before {
   content: "";
   position: absolute;
-  top: -4.15vw;
-  bottom: -4.17vw;
+  top: -3.7vw;
+  bottom: -3.7vw;
   right: -1.88vw;
   width: 0.1vw;
   height: auto;
@@ -94,8 +94,24 @@
   background-size: cover;
   background-position: center;
   animation: scrollLeft 50s linear infinite;
+  position: relative;
+  overflow: hidden;
 }
-.gallery .gallery__item::before {
+.gallery__item__item-rat::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: inherit;
+  background-size: clamp(20%, 10vw, 40%);
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.5;
+  z-index: -1;
+}
+.gallery__item .gallery__item::before {
   content: "";
   position: absolute;
   top: 15%;
@@ -104,47 +120,50 @@
   width: 0.1vw;
   background-color: #3a4355;
 }
-.gallery__image {
+.gallery__item__image {
   max-width: 80%;
   max-height: 80%;
   margin-bottom: 1vw;
 }
-.gallery__label {
+.gallery__item__label {
   font-size: 0.6vw;
   text-align: center;
   color: #ccc;
+<<<<<<< HEAD
   font-weight: bold;
   display: block;
 }
-.gallery__condition-purple {
+.gallery__item__condition-purple {
   display: block;
   color: rgb(136, 71, 255);
   font-size: 0.8vw;
   margin-top: 0.2vw;
 }
-.gallery__condition-pink {
+.gallery__item__condition-pink {
   display: block;
   color: rgb(211, 46, 230);
   font-size: 0.8vw;
   margin-top: 0.2vw;
 }
-.gallery__condition-red {
+.gallery__item__condition-red {
   display: block;
   color: rgb(235, 75, 75);
   font-size: 0.8vw;
   margin-top: 0.2vw;
 }
-.gallery__condition-purple {
+.gallery__item__condition-purple {
   display: block;
   color: rgb(136, 71, 255);
   font-size: 0.8vw;
   margin-top: 0.2vw;
 }
-.gallery__condition-gold {
+.gallery__item__condition-gold {
   display: block;
   color: rgb(255, 215, 0);
   font-size: 0.8vw;
   margin-top: 0.2vw;
+=======
+>>>>>>> parent of c4197fd (j)
 }
 @keyframes scrollLeft {
   0% {
@@ -181,9 +200,8 @@
     transform: translateX(-3000%);
   }
 }
-
 @media (max-width: 700px) {
-  .header3__menu-line {
+  .gallery .header3__menu-line {
     width: 0.05rem;
     height: 100rem;
     background: #D1D2D8;
