@@ -131,6 +131,48 @@ background: variables.$seperator_color;
     font-size: clamp(0.1vw, 0.6vw, 5vw);
     text-align: center;
     color: #ccc;
+    font-weight: bold;
+    display: block;
+  }
+  &__condition-purple{
+    display: block;
+    color: rgb(136, 71, 255);
+    font-size: 0.9rem; 
+    margin-top: 0.2rem; 
+
+
+  }
+  &__condition-pink{
+    display: block;
+    color: rgb(211, 46, 230);
+    font-size: 0.9rem; 
+    margin-top: 0.2rem; 
+
+
+  }
+  &__condition-red{
+    display: block;
+    color: rgb(235, 75, 75);
+    font-size: 0.9rem; 
+    margin-top: 0.2rem; 
+
+
+  }
+  &__condition-purple{
+    display: block;
+    color: rgb(136, 71, 255);
+    font-size: 0.9rem; 
+    margin-top: 0.2rem; 
+
+
+  }
+  &__condition-gold{
+    display: block;
+    color: rgb(255, 215, 0);
+    font-size: 0.9rem; 
+    margin-top: 0.2rem; 
+
+
   }
 
   @keyframes scrollLeft {
