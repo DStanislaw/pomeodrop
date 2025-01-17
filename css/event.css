@@ -414,6 +414,7 @@
   margin-left: 0.8vw;
   border: 0.1vw solid #2f394e;
   border-radius: 0.5vw;
+  font-size: 0.8vw;
 }
 .main__event .main__event-sorting .main__event__sorting-casename p {
   margin-left: 0.7vw;
@@ -425,6 +426,7 @@
 }
 .main__event .main__event-sorting .main__event__sorting-casename i {
   color: #3f4c68;
+  margin-top: 0.2vw;
   font-size: 1vw;
   cursor: pointer;
 }
