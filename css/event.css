@@ -227,6 +227,7 @@
 }
 .main__event .main__event-sorting .main__event__sorting-categories .main__event__sorting-categories-official span {
   color: #5a9ffe;
+  font-size: 1vw;
 }
 .main__event .main__event-sorting .main__event__sorting-categories .main__event__sorting-categories-official p {
   margin-left: 0.6vw;
@@ -252,6 +253,7 @@
 .main__event .main__event-sorting .main__event__sorting-categories .main__event__sorting-categories-users span {
   color: #ffffff;
   transition: color 0.3s ease;
+  font-size: 1vw;
 }
 .main__event .main__event-sorting .main__event__sorting-categories .main__event__sorting-categories-users p {
   transition: color 0.3s ease;
@@ -284,6 +286,7 @@
 .main__event .main__event-sorting .main__event__sorting-favorites span {
   transition: color 1s ease;
   color: #616d86;
+  font-size: 1vw;
 }
 .main__event .main__event-sorting .main__event__sorting-favorites:hover {
   background-color: #615a3f;
