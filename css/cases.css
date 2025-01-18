@@ -1,0 +1,60 @@
+.boxesall {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 28vh;
+  background-color: #1B1F2B;
+  margin: 0;
+}
+
+.container {
+  width: 80vw;
+  height: 13.5vw;
+  overflow: hidden;
+  border: 0.13vw solid #000;
+  position: relative;
+}
+
+.boxes-every {
+  display: flex;
+  position: absolute;
+  left: 0;
+  transition: left 7s cubic-bezier(0.33, 1, 0.68, 1);
+}
+.boxes-every span {
+  z-index: 11;
+  color: rgb(255, 8, 0);
+  position: absolute;
+}
+.boxes-every img:first-of-type {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  margin-top: -2vw;
+}
+.boxes-every img:last-of-type {
+  position: absolute;
+  z-index: 10;
+  width: 10vw;
+  height: 10vw;
+  align-items: center;
+  justify-content: center;
+  margin-left: 2.5vw;
+}
+.boxes-every .boxes-legendary {
+  position: relative;
+}
+.box {
+  width: 300px;
+  height: 300px;
+  flex-shrink: 0;
+}
+
+#spinButton {
+  margin-top: 2vw;
+  padding: 1vw 2vw;
+  font-size: 1.6vw;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=cases.css.map */
