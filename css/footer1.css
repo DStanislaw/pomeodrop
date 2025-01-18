@@ -13,15 +13,19 @@ footer .footer__content {
   flex-direction: column;
   align-items: flex-start;
   max-width: 25%;
+  overflow: visible;
 }
 footer .footer__content .footer__logo {
   margin-bottom: 1rem;
 }
 footer .footer__content .footer__logo img {
-  height: 2.5vw;
+  display: block;
+  height: 3vw;
   width: auto;
+  display: block;
 }
 footer .footer__content .footer__description {
+  color: #ffffff;
   font-size: 1rem;
   line-height: 1.5;
   margin-bottom: 1.5rem;
