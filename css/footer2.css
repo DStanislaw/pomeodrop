@@ -25,6 +25,8 @@
   align-items: center;
   justify-content: center;
   gap: 0.6vw;
+  transition: background-color 0.35s ease, color 0.35s ease;
+  cursor: pointer;
 }
 .footer2__statistics-content-button p {
   color: white;
@@ -35,6 +37,10 @@
 .footer2__statistics-content-button i {
   color: #ffffff;
   font-size: 0.75vw;
+}
+
+.footer2__statistics-content-button:hover {
+  background-color: #2e466b;
 }
 
 .footer2__statistics-content-alltext {
