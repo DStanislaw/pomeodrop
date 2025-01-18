@@ -13,6 +13,10 @@
   background-color: #1b1f2b;
 }
 
+a {
+  text-decoration: none;
+}
+
 .menu1__logo {
   cursor: pointer;
   display: flex;

@@ -17,6 +17,11 @@
   background-color: variables.$menu1_background;
 }
 
+a{
+
+  text-decoration: none;
+}
+
 .menu1__logo {
   cursor: pointer;
   display: flex;

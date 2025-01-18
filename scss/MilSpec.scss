@@ -23,6 +23,8 @@
       border-radius: 0.4vw;
       justify-content: center;
       border: 0.1vw solid #606d87;
+      cursor: pointer;
+
 
       .MilSpec__Info__back-icon {
         font-size: 1vw;
@@ -325,4 +327,154 @@
      }
 
   }
+}
+
+
+
+
+
+.MilSpec__event{
+
+  background: linear-gradient(to right, rgba(0, 0, 0, 1), transparent 50%, rgba(1, 0, 0, )), url(../design/photos/header_homepage.webp) no-repeat;
+  background-size: 85vw;
+  background-position: -3vw 0vw;
+  height: 9vw;
+  width: 78.5vw;
+  background-color: red;
+  border-radius: 1vw;
+  position: relative;
+
+}
+
+.MilSpec__event-content-event-imgs{
+
+  position: relative;
+  display: flex;
+}
+
+.MilSpec__event-content-event1-img{
+
+  position: absolute;
+  height: 10vw;
+  width: 15.5vw;
+  margin-left: 20vw;
+  margin-top: -1vw;
+}
+
+
+.MilSpec__event-content-event2-img{
+
+  position: absolute;
+  height: 2vw;
+  width: 3vw;
+}
+
+.MilSpec__event-content-event2-img{
+
+  position: absolute;
+  height: 3.7vw;
+  width: 18vw;
+  margin-left: 30vw;
+  margin-top: 2.4vw;
+  z-index: 1;
+}
+
+
+.MilSpec__event-content-event3-img{
+
+  position: absolute;
+  height: 10vw;
+  width: 15.5vw;
+  margin-left: 43vw;
+  margin-top: -1vw;
+}
+
+.MilSpec__event-content-countdown{
+
+  align-items: center;
+  display: flex;
+  gap: 1vw;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  margin-left: 2vw;
+  margin-top: 3vw;
+
+
+  span{
+
+    color: white;
+    font-size: 1.3vw;
+    font-weight: bold;
+  }
+
+  .MilSpec__event-content-countdown-timeframe{
+
+    color: #b4a8a8;
+    font-size: 0.7vw;
+    font-weight: bold;
+  }
+
+}
+
+.MilSpec__event-content-countdown-break{
+
+p{
+
+  color: red;
+  font-size: 1.2vw;
+}
+
+}
+
+.MilSpec__event-content-button{
+
+  height: 2.5vw;
+  width: 8vw;
+  background-color: #ff1434;
+  border-radius: 0.5vw;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.7vw;
+  border: 1vw;
+  margin-left: 68.5vw;
+  margin-top: 1.6vw;
+  cursor: pointer;
+
+  p{
+
+    color: white;
+    font-weight: bold;
+    font-size: 0.8vw;
+
+  }
+
+  i {
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 0.8vw;
+  }
+
+}
+
+.MilSpec__event-content-informations-text{
+
+  color: white;
+  position: absolute;
+  font-size: 0.8vw;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: right;
+  margin-left: 62.4vw;
+  margin-right: 2vw;
+  margin-top: 5vw;
+
+  span{
+
+    color: red;
+  
+  }
+
 }
