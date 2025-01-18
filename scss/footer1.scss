@@ -49,12 +49,7 @@ footer {
             flex-wrap: nowrap;
             
           }
-          &-icons5{
-            display: flex;
-
-
-          }
-
+          
 
           .footer__social-icons {
             display: flex;
@@ -62,7 +57,14 @@ footer {
               i {
                 font-size: 1.1vw;
                 color: #8892a5;
+                &:hover{
+                    color: #1da1f2; 
+                      transform: scale(1);
+                    }
+
+
               }
+
   
             
           }
@@ -86,7 +88,7 @@ footer {
           }
   
           a {
-            
+            text-transform: uppercase;
             display: block;
             font-size: 0.73vw;
             color: #ffffff;

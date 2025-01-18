@@ -46,9 +46,6 @@ footer .footer__top .footer__logo-container .footer__socials span {
   color: #8892a5;
   flex-wrap: nowrap;
 }
-footer .footer__top .footer__logo-container .footer__socials-icons5 {
-  display: flex;
-}
 footer .footer__top .footer__logo-container .footer__socials .footer__social-icons {
   display: flex;
   gap: 1vw;
@@ -56,6 +53,10 @@ footer .footer__top .footer__logo-container .footer__socials .footer__social-ico
 footer .footer__top .footer__logo-container .footer__socials .footer__social-icons i {
   font-size: 1.1vw;
   color: #8892a5;
+}
+footer .footer__top .footer__logo-container .footer__socials .footer__social-icons i:hover {
+  color: #1da1f2;
+  transform: scale(1);
 }
 footer .footer__top .footer__links {
   display: flex;
@@ -70,6 +71,7 @@ footer .footer__top .footer__links-column h4 {
   font-family: Arial, Helvetica, sans-serif;
 }
 footer .footer__top .footer__links-column a {
+  text-transform: uppercase;
   display: block;
   font-size: 0.73vw;
   color: #ffffff;
