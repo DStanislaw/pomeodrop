@@ -328,6 +328,7 @@
   border: 1vw;
   margin-left: 68.5vw;
   margin-top: 1.6vw;
+  cursor: pointer;
 }
 .MilSpec__event-content-button p {
   color: white;
