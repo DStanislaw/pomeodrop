@@ -49,6 +49,7 @@ footer .footer__top .footer__logo-container .footer__socials span {
 footer .footer__top .footer__logo-container .footer__socials .footer__social-icons {
   display: flex;
   gap: 1vw;
+  font-size: 1.1vw;
 }
 footer .footer__top .footer__logo-container .footer__socials .footer__social-icons i {
   font-size: 1.1vw;
