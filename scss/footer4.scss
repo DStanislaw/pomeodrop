@@ -17,6 +17,8 @@
       line-height: 1.5; 
       &-first{
         font-size: 0.9vw;
+        font-weight: 530;
+        color: aliceblue;
 
 
 
@@ -26,6 +28,7 @@
     &__right {
       text-align: right; 
       display: flex;
+      position: relative;
       align-items: flex-end;
       font-size: 0.7vw;
   
@@ -36,7 +39,7 @@
   
     &__logo {
       width: 3vw; 
-      height: auto; 
-      margin-top: 1vw; 
+      height: 1vw; 
+      margin-top: -1vw; 
     }
   }

@@ -17,10 +17,13 @@
 }
 .footer4__left-first {
   font-size: 0.9vw;
+  font-weight: 530;
+  color: aliceblue;
 }
 .footer4__right {
   text-align: right;
   display: flex;
+  position: relative;
   align-items: flex-end;
   font-size: 0.7vw;
 }
@@ -29,8 +32,8 @@
 }
 .footer4__logo {
   width: 3vw;
-  height: auto;
-  margin-top: 1vw;
+  height: 1vw;
+  margin-top: -1vw;
 }
 
 /*# sourceMappingURL=footer4.css.map */
