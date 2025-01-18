@@ -1,0 +1,42 @@
+.footer4{
+    font-size: 0.9vw; 
+    margin-top: -12vw;
+    margin-left: 7vw;
+    margin-right: 6vw;
+  
+    &__content {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-wrap: wrap; 
+      gap: 2vw;
+    }
+  
+    &__left {
+      max-width: 40vw; 
+      line-height: 1.5; 
+      &-first{
+        font-size: 0.9vw;
+
+
+
+      }
+    }
+  
+    &__right {
+      text-align: right; 
+      display: flex;
+      align-items: flex-end;
+      font-size: 0.7vw;
+  
+      p {
+        margin: 0 0 0.5vw 0; 
+      }
+    }
+  
+    &__logo {
+      width: 3vw; 
+      height: auto; 
+      margin-top: 1vw; 
+    }
+  }
