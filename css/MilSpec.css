@@ -3,5 +3,102 @@
   src: url("../design/fonts/Fontspring-DEMO-billie-bold.otf") format("otf") font-weight normal;
   font-style: normal;
 }
+.MilSpec .MilSpec-Info {
+  width: 78vw;
+  background-color: #161921;
+  height: 8vw;
+  display: flex;
+  align-items: center;
+}
+.MilSpec .MilSpec-Info .MilSpec__Info-back {
+  display: flex;
+  align-items: center;
+  width: 5.7vw;
+  background-color: #1e212c;
+  height: 2.45vw;
+  border-radius: 0.4vw;
+  justify-content: center;
+  border: 0.1vw solid #606d87;
+}
+.MilSpec .MilSpec-Info .MilSpec__Info-back .MilSpec__Info__back-icon {
+  font-size: 1vw;
+  margin-left: -0.1vw;
+}
+.MilSpec .MilSpec-Info .MilSpec__Info-back .MilSpec__Info__back-icon i {
+  color: white;
+  rotate: 90deg;
+  font-size: 0.9vw;
+}
+.MilSpec .MilSpec-Info .MilSpec__Info-back .MilSpec__Info__back-text {
+  font-size: 1vw;
+  margin-left: 0.5vw;
+}
+.MilSpec .MilSpec-Info .MilSpec__Info-back .MilSpec__Info__back-text span {
+  color: white;
+  font-size: 0.75vw;
+  font-weight: 550;
+  font-family: "ponur", sans-serif;
+}
+.MilSpec .MilSpec-Info .MilSpec__Info-img {
+  margin-top: 1vw;
+}
+.MilSpec .MilSpec-Info .MilSpec__Info-img img {
+  width: 7vw;
+  height: 5vw;
+}
+.MilSpec .MilSpec-Info .MilSpec__Info-name {
+  display: flex;
+  flex-direction: column;
+}
+.MilSpec .MilSpec-Info .MilSpec__Info-name .MilSpec__Info__name-MilSpec span {
+  color: white;
+  font-size: 1.21vw;
+  font-weight: 550;
+  font-family: "ponur", sans-serif;
+}
+.MilSpec .MilSpec-Info .MilSpec__Info-name .MilSpec__Info__name-describe {
+  display: flex;
+  position: relative;
+  margin-top: -0.3vw;
+}
+.MilSpec .MilSpec-Info .MilSpec__Info-name .MilSpec__Info__name-describe .MilSpec__Info__name__describe-exp span {
+  font-size: 0.6vw;
+  font-weight: 550;
+  font-family: "ponur", sans-serif;
+  color: #FFE46D;
+}
+.MilSpec .MilSpec-Info .MilSpec__Info-name .MilSpec__Info__name-describe .MilSpec__Info__name__describe-textdividor {
+  margin-left: 0.4vw;
+}
+.MilSpec .MilSpec-Info .MilSpec__Info-name .MilSpec__Info__name-describe .MilSpec__Info__name__describe-textdividor span {
+  font-size: 0.6vw;
+  font-weight: 550;
+  font-family: "ponur", sans-serif;
+  color: #8892A5;
+}
+.MilSpec .MilSpec-Info .MilSpec__Info-name .MilSpec__Info__name-describe .MilSpec__Info__name__describe-opened {
+  margin-left: 0.4vw;
+}
+.MilSpec .MilSpec-Info .MilSpec__Info-name .MilSpec__Info__name-describe .MilSpec__Info__name__describe-opened span {
+  font-size: 0.6vw;
+  font-weight: 550;
+  font-family: "ponur", sans-serif;
+  color: #8892A5;
+}
+.MilSpec .MilSpec-Info .MilSpec__Info-name .MilSpec__Info__name-describe .MilSpec__Info__name__describe-openedcount {
+  margin-left: 0.3vw;
+}
+.MilSpec .MilSpec-Info .MilSpec__Info-name .MilSpec__Info__name-describe .MilSpec__Info__name__describe-openedcount span {
+  font-size: 0.6vw;
+  font-weight: 550;
+  font-family: "ponur", sans-serif;
+  color: #5B9FFF;
+}
+.MilSpec .MilSpec-Info .MilSpec__Info-line {
+  margin-left: 1vw;
+  width: 27.4vw;
+  background-color: #2E394F;
+  height: 0.1vw;
+}
 
 /*# sourceMappingURL=MilSpec.css.map */
