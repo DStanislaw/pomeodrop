@@ -13,17 +13,21 @@ footer {
       flex-direction: column;
       align-items: flex-start;
       max-width: 25%;
+      overflow: visible;
   
       .footer__logo {
         margin-bottom: 1rem;
         img {
-          height: 2.5vw;
-          width: auto;
+            display: block;
+          height: 3vw; // zwiększ rozmiar w zależności od potrzeb
+          width: auto; // zachowanie proporcji
+          display: block; // upewnij się, że obraz nie jest ukryty
         }
       }
   
       .footer__description {
-        font-size: 1rem;
+        color: #ffffff; // białe litery, aby kontrastowały z ciemnym tłem
+        font-size: 1rem; // większa czcionka dla lepszej widoczności
         line-height: 1.5;
         margin-bottom: 1.5rem;
       }
