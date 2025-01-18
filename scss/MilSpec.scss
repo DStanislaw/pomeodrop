@@ -60,7 +60,7 @@
        
        flex-direction: column;
       .MilSpec__Info__name-MilSpec {
-        margin-top: -1.7vw;
+        
         span {
             color: #ffff;
           font-size: 1.21vw;
@@ -71,8 +71,9 @@
 
       .MilSpec__Info__name-describe {
         display: flex;
+        position: relative;
         
-         margin-top: -3.8vw;
+         margin-top: -0.3vw;
         .MilSpec__Info__name__describe-exp {
          span {
             font-size: 0.6vw;

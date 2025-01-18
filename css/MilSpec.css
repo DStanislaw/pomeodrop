@@ -50,9 +50,6 @@
   display: flex;
   flex-direction: column;
 }
-.MilSpec .MilSpec-Info .MilSpec__Info-name .MilSpec__Info__name-MilSpec {
-  margin-top: -1.7vw;
-}
 .MilSpec .MilSpec-Info .MilSpec__Info-name .MilSpec__Info__name-MilSpec span {
   color: white;
   font-size: 1.21vw;
@@ -61,7 +58,8 @@
 }
 .MilSpec .MilSpec-Info .MilSpec__Info-name .MilSpec__Info__name-describe {
   display: flex;
-  margin-top: -3.8vw;
+  position: relative;
+  margin-top: -0.3vw;
 }
 .MilSpec .MilSpec-Info .MilSpec__Info-name .MilSpec__Info__name-describe .MilSpec__Info__name__describe-exp span {
   font-size: 0.6vw;
