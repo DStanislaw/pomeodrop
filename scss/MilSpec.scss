@@ -1,0 +1,53 @@
+@use "_variables";
+@font-face {
+  font-family: "ponur";
+  src: url("../design/fonts/Fontspring-DEMO-billie-bold.otf") format("otf")
+    font-weight normal;
+  font-style: normal;
+}
+
+
+.MilSpec{
+
+    .MilSpec-Info{
+
+        .MilSpec__Info-back{
+
+            .MilSpec__Info__back-icon{
+
+            }
+            .MilSpec__Info__back-text{
+
+            }
+
+
+        }
+
+        .MilSpec__Info-img{
+
+
+        }
+
+        .MilSpec__Info-name{
+            .MilSpec__Info__name-MilSpec{
+
+            }
+            .MilSpec__Info__name-exp{
+
+            }
+            .MilSpec__Info__name-textdividor{
+
+            }
+            .MilSpec__Info__name-opened{
+
+            }
+            .MilSpec__Info__name-openedcount{
+                
+            }
+
+        }
+
+
+
+    }
+}

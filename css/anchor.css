@@ -18,6 +18,7 @@
   border: 0.1vw solid #2e394f;
   scrollbar-color: rgba(92, 158, 224, 0.3) rgba(0, 116, 233, 0.1);
   display: flex;
+  font-size: 1.8vw;
 }
 .scroll-to-top:hover {
   background-color: rgba(50, 75, 120, 0.9);
