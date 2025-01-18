@@ -16,7 +16,7 @@ footer {
         flex-direction: column;
         gap: 1vw;
         max-width: 20vw;
-        margin-left: 5vw;
+        margin-left: 7.2vw;
   
         .footer__logo {
           height: 2.5vw;
@@ -25,27 +25,43 @@ footer {
         }
   
         .footer__description {
-          font-size: 0.9rem;
-          line-height: 1.5;
-          color: #d1d5db;
+            color: #606d87;
+            font-size: 0.7vw;
+            font-weight: 500;
+            font-family: Arial, Helvetica, sans-serif;
         }
   
         .footer__socials {
           display: flex;
-          flex-direction: column;
-          gap: 0.5rem;
-  
+          text-align: center;
+          font-family: Arial, Helvetica, sans-serif;
+
+            &-bar{
+                background-color: #8892a5;
+                height: 0.05vw;
+                margin: 0 1vw 0 1vw;
+                width: 5vw;
+                margin-top: 0.4vw;
+                }
           span {
-            font-size: 0.9rem;
-            color: #d1d5db;
+            font-size: 0.7vw;
+            color: #8892a5;
+            flex-wrap: nowrap;
+            
           }
-  
+          &-icons5{
+            display: flex;
+
+
+          }
+
+
           .footer__social-icons {
             display: flex;
             gap: 1rem;
               i {
-                font-size: 1.2rem;
-                color: #fff;
+                font-size: 1.1rem;
+                color: #8892a5;
               }
   
             
@@ -55,24 +71,30 @@ footer {
   
       .footer__links {
         display: flex;
-        gap: 3rem;
+        gap: 3vw;
         position: relative;
   
         &-column {
+            
+
           h4 {
-            font-size: 1.2rem;
-            color: #fff;
-            margin-bottom: 1rem;
+            color: #606d87;
+    font-size: 1vw;
+    font-weight: bold;
+    margin-bottom: 1vw;
+    font-family: Arial, Helvetica, sans-serif;
           }
   
           a {
+            
             display: block;
-            font-size: 0.9rem;
-            color: #606d87;
+            font-size: 0.77vw;
+            color: #ffffff;
+            font-weight: bold;
             text-decoration: none;
-            margin-bottom: 0.5rem;
+            margin-bottom: 0.5vw;
             transition: color 0.3s ease;
-  
+            font-family: Arial, Helvetica, sans-serif;
             &:hover {
               color: #5b9fff;
             }
