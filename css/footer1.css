@@ -92,7 +92,7 @@ footer .footer__top .footer__image {
 }
 footer .footer__top .footer__image img {
   max-height: 15vw;
-  width: auto;
+  width: 20vw;
   object-fit: contain;
 }
 
