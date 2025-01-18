@@ -19,8 +19,8 @@ footer .footer__top .footer__logo-container {
   margin-left: 7.2vw;
 }
 footer .footer__top .footer__logo-container .footer__logo {
-  height: 2.5vw;
-  margin-left: -5vw;
+  height: 2.2vw;
+  margin-left: -7.62vw;
   width: auto;
 }
 footer .footer__top .footer__logo-container .footer__description {
@@ -51,29 +51,29 @@ footer .footer__top .footer__logo-container .footer__socials-icons5 {
 }
 footer .footer__top .footer__logo-container .footer__socials .footer__social-icons {
   display: flex;
-  gap: 1rem;
+  gap: 1vw;
 }
 footer .footer__top .footer__logo-container .footer__socials .footer__social-icons i {
-  font-size: 1.1rem;
+  font-size: 1.1vw;
   color: #8892a5;
 }
 footer .footer__top .footer__links {
   display: flex;
-  gap: 3vw;
+  gap: 3.9vw;
   position: relative;
 }
 footer .footer__top .footer__links-column h4 {
   color: #606d87;
-  font-size: 1vw;
+  font-size: 0.8vw;
   font-weight: bold;
   margin-bottom: 1vw;
   font-family: Arial, Helvetica, sans-serif;
 }
 footer .footer__top .footer__links-column a {
   display: block;
-  font-size: 0.77vw;
+  font-size: 0.73vw;
   color: #ffffff;
-  font-weight: bold;
+  font-weight: 540;
   text-decoration: none;
   margin-bottom: 0.5vw;
   transition: color 0.3s ease;
