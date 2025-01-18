@@ -101,6 +101,146 @@
   background-color: #2E394F;
   height: 0.1vw;
 }
+.MilSpec .MilSpec-Info .MilSpec__Info-link {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin-left: 1vw;
+}
+.MilSpec .MilSpec-Info .MilSpec__Info-link .MilSpec__Info__link-input {
+  margin-left: -0.5vw;
+  height: 2.5vw;
+  width: 15vw;
+  border: 0.1vw solid #2E394F;
+  border-radius: 0.6vw;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: #13151D;
+}
+.MilSpec .MilSpec-Info .MilSpec__Info-link .MilSpec__Info__link-input[data-link=true] {
+  color: white;
+  font-weight: 550;
+  font-size: 0.75vw;
+  font-family: "ponur", sans-serif;
+}
+.MilSpec .MilSpec-Info .MilSpec__Info-link .MilSpec__Info__link-copybtn {
+  height: 2.5vw;
+  width: 2.5vw;
+  border-radius: 0.5vw;
+  position: relative;
+  left: -1vw;
+  background-color: #1A2334;
+  border: 0.1vw solid #5B9FFF;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.MilSpec .MilSpec-Info .MilSpec__Info-link .MilSpec__Info__link-copybtn i {
+  color: white;
+  font-size: 0.95vw;
+}
+.MilSpec .MilSpec-Info .MilSpec__Info-link .MilSpec__Info__link-copybtn:hover {
+  background-color: #283F61;
+}
+.MilSpec .MilSpec-Info .MilSpec__Info-sound {
+  height: 2.5vw;
+  width: 2.5vw;
+  border-radius: 0.5vw;
+  position: relative;
+  background-color: #1A2334;
+  border: 0.1vw solid #5B9FFF;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.MilSpec .MilSpec-Info .MilSpec__Info-sound i {
+  color: white;
+}
+.MilSpec .MilSpec-Info .MilSpec__Info-sound:hover {
+  background-color: #283F61;
+}
+.MilSpec .MilSpec-Info .MilSpec__Info-timer {
+  margin-left: 1vw;
+  height: 2.5vw;
+  width: 2.5vw;
+  border-radius: 0.5vw;
+  position: relative;
+  background-color: #1E212C;
+  border: 0.1vw solid #606D87;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.MilSpec .MilSpec-Info .MilSpec__Info-timer i {
+  color: white;
+}
+.MilSpec .MilSpec-Info .MilSpec__Info-timer:hover {
+  background-color: #2C3240;
+}
+.MilSpec .MilSpec-Info .MilSpec__Info-timer .notification {
+  display: none;
+  position: absolute;
+  top: 3vw;
+  width: 10vw;
+  height: 3vw;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #2A4164;
+  color: white;
+  padding: 0.5vw 1vw;
+  border-radius: 0.5vw;
+  font-size: 1.3vw;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  text-align: center;
+}
+.MilSpec .MilSpec-Info .MilSpec__Info-timer .notification span {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.MilSpec .MilSpec-Info .MilSpec__Info-timer .notification span:first-of-type {
+  font-size: 0.6vw;
+  font-family: "ponur", sans-serif;
+  text-transform: uppercase;
+  font-weight: 650;
+}
+.MilSpec .MilSpec-Info .MilSpec__Info-timer .notification span:last-of-type {
+  color: #5B9FFF;
+  position: absolute;
+  top: 2vw;
+  font-size: 0.4vw;
+  font-family: "ponur", sans-serif;
+  text-transform: uppercase;
+}
+.MilSpec .MilSpec-Info .MilSpec__Info-icon18plus {
+  margin-left: 1vw;
+  height: 2vw;
+  width: 2vw;
+  border-radius: 1.5vw;
+  position: relative;
+  border: 0.2vw solid #606D87;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.MilSpec .MilSpec-Info .MilSpec__Info-icon18plus i {
+  color: white;
+  font-size: 0.4vw;
+}
+.MilSpec .MilSpec-Info .MilSpec__Info-icon18plus span {
+  color: white;
+  font-family: "ponur", sans-serif;
+  font-weight: 750;
+  font-size: 0.7vw;
+}
 
 .MilSpec__event {
   background: linear-gradient(to right, rgb(0, 0, 0), transparent 50%, rgb(1, 0, 0)), url(../design/photos/header_homepage.webp) no-repeat;
