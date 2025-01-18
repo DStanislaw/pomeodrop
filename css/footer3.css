@@ -43,6 +43,7 @@
 }
 .footer3__socials-elements:hover {
   filter: grayscale(0);
+  transition: filter 0.35s ease, color 0.35s ease;
 }
 
 .footer3__separator {
