@@ -2,6 +2,7 @@ footer {
   color: #606d87;
   padding: 3vw 4vw;
   position: relative;
+  margin-top: 4vw;
 }
 footer .footer__top {
   display: flex;
@@ -89,11 +90,11 @@ footer .footer__top .footer__image {
   display: flex;
   justify-content: flex-end;
   margin-top: -2vw;
-  margin-right: 2vw;
+  margin-right: 5.6vw;
 }
 footer .footer__top .footer__image img {
-  max-height: 15vw;
-  width: 20vw;
+  max-height: 13vw;
+  width: 18vw;
   object-fit: contain;
 }
 

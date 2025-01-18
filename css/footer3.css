@@ -45,4 +45,15 @@
   filter: grayscale(0);
 }
 
+.footer3__separator {
+  background-color: rgba(255, 255, 255, 0.1019607843);
+  grid-area: bar;
+  height: 0.1vw;
+  margin-top: -3vw;
+  margin-bottom: 12vw;
+  width: 78vw;
+  text-align: center;
+  margin-left: 11vw;
+}
+
 /*# sourceMappingURL=footer3.css.map */

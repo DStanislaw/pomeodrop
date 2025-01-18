@@ -1,0 +1,36 @@
+.footer4 {
+  font-size: 0.9vw;
+  margin-top: -12vw;
+  margin-left: 7vw;
+  margin-right: 6vw;
+}
+.footer4__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 2vw;
+}
+.footer4__left {
+  max-width: 40vw;
+  line-height: 1.5;
+}
+.footer4__left-first {
+  font-size: 0.9vw;
+}
+.footer4__right {
+  text-align: right;
+  display: flex;
+  align-items: flex-end;
+  font-size: 0.7vw;
+}
+.footer4__right p {
+  margin: 0 0 0.5vw 0;
+}
+.footer4__logo {
+  width: 3vw;
+  height: auto;
+  margin-top: 1vw;
+}
+
+/*# sourceMappingURL=footer4.css.map */
