@@ -2,104 +2,95 @@ footer {
     background-color: #1b1f2b;
     color: #606d87;
     padding: 3vw 4vw;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    align-items: flex-start;
+    position: relative;
   
-   .footer__top {
-  display: flex; /* Elastyczny układ */
-  justify-content: space-between; /* Logo po lewej, ikony po prawej */
-  align-items: center; /* Wyrównanie elementów w pionie */
-  margin-bottom: 2vw;
-
-  // Logo i opis
-  & > .footer__logo-container {
-    display: flex; /* Układ poziomy logo i opisu */
-    flex-direction: column; /* Układ pionowy: logo nad tekstem */
-    align-items: flex-start;
-
-    .footer__logo {
-      height: 3vw; 
-      width: auto;
-      margin-bottom: 1rem;
-    }
-
-    .footer__description {
-      font-size: 0.9rem;
-      color: #d1d5db; /* Jaśniejszy kolor dla tekstu */
-      line-height: 1.5;
-      max-width: 300px; /* Ograniczenie szerokości tekstu */
-    }
-  }
-
-  // Ikony społecznościowe
-  & > .footer__socials {
-    display: flex; /* Ikony w rzędzie */
-    gap: 1rem; /* Odstępy między ikonami */
-
-    a {
+    .footer__top {
       display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 40px;
-      height: 40px;
-      background-color: #2e394f; /* Tło ikony */
-      border-radius: 50%;
-      transition: background-color 0.3s ease;
-
-      i {
-        font-size: 1.2rem; /* Wielkość ikony */
-        color: #fff;
-      }
-
-      &:hover {
-        background-color: #5b9fff; /* Kolor na hover */
-      }
-    }
-  }
-}
-
-  
-    .footer__links {
-      display: flex;
-      flex: 2;
       justify-content: space-between;
+      align-items: flex-start;
+      flex-wrap: wrap; 
+      position: relative;
+      gap: 1vw;
   
-      &-column {
-        margin-right: 2rem;
+      .footer__logo-container {
+        display: flex;
+        flex-direction: column;
+        gap: 1vw;
+        max-width: 20vw;
+        margin-left: 5vw;
   
-        h4 {
-          font-size: 1.2rem;
-          color: #fff;
-          margin-bottom: 1rem;
+        .footer__logo {
+          height: 2.5vw;
+          margin-left: -5vw;
+          width: auto;
         }
   
-        a {
-          display: block;
-          font-size: 1rem;
-          color: #606d87;
-          text-decoration: none;
-          margin-bottom: 0.5rem;
-          transition: color 0.3s ease;
+        .footer__description {
+          font-size: 0.9rem;
+          line-height: 1.5;
+          color: #d1d5db;
+        }
   
-          &:hover {
-            color: #5b9fff;
+        .footer__socials {
+          display: flex;
+          flex-direction: column;
+          gap: 0.5rem;
+  
+          span {
+            font-size: 0.9rem;
+            color: #d1d5db;
+          }
+  
+          .footer__social-icons {
+            display: flex;
+            gap: 1rem;
+              i {
+                font-size: 1.2rem;
+                color: #fff;
+              }
+  
+            
           }
         }
       }
-    }
   
-    .footer__image {
-      flex: 1;
-      display: flex;
-      justify-content: flex-end;
-      align-items: flex-end;
+      .footer__links {
+        display: flex;
+        gap: 3rem;
+        position: relative;
   
-      img {
-        max-width: 100%;
-        height: auto;
-        object-fit: cover;
+        &-column {
+          h4 {
+            font-size: 1.2rem;
+            color: #fff;
+            margin-bottom: 1rem;
+          }
+  
+          a {
+            display: block;
+            font-size: 0.9rem;
+            color: #606d87;
+            text-decoration: none;
+            margin-bottom: 0.5rem;
+            transition: color 0.3s ease;
+  
+            &:hover {
+              color: #5b9fff;
+            }
+          }
+        }
+      }
+  
+      .footer__image {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: -2vw;
+        margin-right: 2vw;
+        img {
+          max-height: 15vw; 
+          width: auto; 
+          object-fit: contain; 
+        }
       }
     }
   }
