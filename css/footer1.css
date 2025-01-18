@@ -1,3 +1,4 @@
+@charset "UTF-8";
 footer {
   background-color: #1b1f2b;
   color: #606d87;
@@ -7,49 +8,48 @@ footer {
   flex-wrap: wrap;
   align-items: flex-start;
 }
-footer .footer__content {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
+footer .footer__top {
+  display: flex; /* Elastyczny układ */
+  justify-content: space-between; /* Logo po lewej, ikony po prawej */
+  align-items: center; /* Wyrównanie elementów w pionie */
+  margin-bottom: 2vw;
+}
+footer .footer__top > .footer__logo-container {
+  display: flex; /* Układ poziomy logo i opisu */
+  flex-direction: column; /* Układ pionowy: logo nad tekstem */
   align-items: flex-start;
-  max-width: 25%;
-  overflow: visible;
 }
-footer .footer__content .footer__logo {
-  margin-bottom: 1rem;
-}
-footer .footer__content .footer__logo img {
-  display: block;
+footer .footer__top > .footer__logo-container .footer__logo {
   height: 3vw;
   width: auto;
-  display: block;
+  margin-bottom: 1rem;
 }
-footer .footer__content .footer__description {
-  color: #ffffff;
-  font-size: 1rem;
+footer .footer__top > .footer__logo-container .footer__description {
+  font-size: 0.9rem;
+  color: #d1d5db; /* Jaśniejszy kolor dla tekstu */
   line-height: 1.5;
-  margin-bottom: 1.5rem;
+  max-width: 300px; /* Ograniczenie szerokości tekstu */
 }
-footer .footer__content .footer__socials {
-  display: flex;
-  gap: 0.8rem;
+footer .footer__top > .footer__socials {
+  display: flex; /* Ikony w rzędzie */
+  gap: 1rem; /* Odstępy między ikonami */
 }
-footer .footer__content .footer__socials a {
+footer .footer__top > .footer__socials a {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 2.5vw;
-  height: 2.5vw;
-  background-color: #2e394f;
+  width: 40px;
+  height: 40px;
+  background-color: #2e394f; /* Tło ikony */
   border-radius: 50%;
   transition: background-color 0.3s ease;
 }
-footer .footer__content .footer__socials a svg {
-  font-size: 1.2vw;
+footer .footer__top > .footer__socials a i {
+  font-size: 1.2rem; /* Wielkość ikony */
   color: #fff;
 }
-footer .footer__content .footer__socials a:hover {
-  background-color: #5b9fff;
+footer .footer__top > .footer__socials a:hover {
+  background-color: #5b9fff; /* Kolor na hover */
 }
 footer .footer__links {
   display: flex;
