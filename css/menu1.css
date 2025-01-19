@@ -104,6 +104,8 @@ a {
   align-items: center;
   display: flex;
   gap: 0.4vw;
+  position: relative;
+  transition: box-shadow 0.3s ease;
 }
 .menu1__navigation .menu1__navigation-event span {
   fill: #ee9b01;
@@ -119,6 +121,18 @@ a {
   display: flex;
   color: #ee9b01;
 }
+.menu1__navigation .menu1__navigation-event:hover::before {
+  content: "";
+  position: absolute;
+  top: -0.5vw;
+  left: -0.5vw;
+  right: -0.5vw;
+  bottom: -0.5vw;
+  background-color: #161921;
+  z-index: -1;
+  border-radius: 1.2vw;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
 .menu1__navigation .menu1__navigation-chests {
   cursor: pointer;
   display: flex;
@@ -126,6 +140,7 @@ a {
   align-items: center;
   display: flex;
   gap: 0.4vw;
+  position: relative;
 }
 .menu1__navigation .menu1__navigation-chests span {
   fill: #ffffff;
@@ -141,7 +156,20 @@ a {
   font-size: 0.58vw;
   font-weight: 550;
 }
+.menu1__navigation .menu1__navigation-chests:hover::before {
+  content: "";
+  position: absolute;
+  top: -0.5vw;
+  left: -0.5vw;
+  right: -0.5vw;
+  bottom: -0.5vw;
+  background-color: #161921;
+  z-index: -1;
+  border-radius: 1.2vw;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
 .menu1__navigation .menu1__navigation-battles {
+  position: relative;
   cursor: pointer;
   display: flex;
   margin-left: auto;
@@ -163,7 +191,20 @@ a {
   font-size: 0.58vw;
   font-weight: 550;
 }
+.menu1__navigation .menu1__navigation-battles:hover::before {
+  content: "";
+  position: absolute;
+  top: -0.5vw;
+  left: -0.5vw;
+  right: -0.5vw;
+  bottom: -0.5vw;
+  background-color: #161921;
+  z-index: -1;
+  border-radius: 1.2vw;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
 .menu1__navigation .menu1__navigation-contract {
+  position: relative;
   cursor: pointer;
   display: flex;
   margin-left: auto;
@@ -186,8 +227,21 @@ a {
   font-size: 0.58vw;
   font-weight: 550;
 }
+.menu1__navigation .menu1__navigation-contract:hover::before {
+  content: "";
+  position: absolute;
+  top: -0.5vw;
+  left: -0.5vw;
+  right: -0.5vw;
+  bottom: -0.5vw;
+  background-color: #161921;
+  z-index: -1;
+  border-radius: 1.2vw;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
 .menu1__navigation .menu1__navigation-shop {
   cursor: pointer;
+  position: relative;
   display: flex;
   margin-left: auto;
   align-items: center;
@@ -208,6 +262,18 @@ a {
   font-family: "ponur", sans-serif;
   font-size: 0.58vw;
   font-weight: 550;
+}
+.menu1__navigation .menu1__navigation-shop:hover::before {
+  content: "";
+  position: absolute;
+  top: -0.5vw;
+  left: -0.5vw;
+  right: -0.5vw;
+  bottom: -0.5vw;
+  background-color: #161921;
+  z-index: -1;
+  border-radius: 1.2vw;
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .menu1__steamlogin {
