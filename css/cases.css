@@ -22,9 +22,41 @@
   transition: left 7s cubic-bezier(0.33, 1, 0.68, 1);
 }
 .boxes-every span {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+}
+.boxes-every span:last-of-type {
+  position: relative;
+  z-index: 12;
+  display: flex;
+  align-items: center;
+  top: 10vw;
+  font-weight: 650;
+  font-size: 0.8vw;
+  font-family: "ponur", sans-serif;
+  text-transform: uppercase;
+}
+.boxes-every span:first-of-type {
   z-index: 11;
   color: rgb(255, 8, 0);
   position: absolute;
+}
+.boxes-every .box-goldtext {
+  color: gold;
+}
+.boxes-every .box-redtext {
+  color: red;
+}
+.boxes-every .box-purpletext {
+  color: purple;
+}
+.boxes-every .box-bluetext {
+  color: blue;
+}
+.boxes-every .box-greytext {
+  color: grey;
 }
 .boxes-every img:first-of-type {
   position: absolute;

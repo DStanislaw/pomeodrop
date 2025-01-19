@@ -20,12 +20,65 @@
     position: absolute;
     left: 0;
     transition: left 7s cubic-bezier(0.33, 1, 0.68, 1);
+    span{
+
+        display: flex;
+        text-align: center;
+        
+        justify-content: center;
+        position: relative;
+        &:last-of-type{
+            position: relative;
+             z-index: 12;
+             
+             display: flex;
+             align-items: center;
+             top: 10vw;
+             font-weight: 650;
+             font-size: 0.8vw;
+             font-family: "ponur", sans-serif;
+             text-transform: uppercase;
+ 
+ 
+         }
+
+    }
 
     span{
+
+        &:first-of-type{
         z-index: 11;
         color: rgb(255, 8, 0);
         position: absolute;
+        }
         
+     
+        
+    }
+    .box-goldtext{
+        color: gold;
+       
+
+    }
+    .box-redtext{
+        color: red;
+       
+
+    }
+    .box-purpletext{
+        color: purple;
+       
+
+    }
+    .box-bluetext{
+        color: blue;
+       
+
+    }
+    .box-greytext{
+        color: grey;
+       
+
     }
 
     img{
