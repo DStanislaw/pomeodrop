@@ -59,6 +59,8 @@
   cursor: pointer;
   color: #8892a5;
   margin-right: -39vw;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
 }
 .case__content .case__content-title .case__content__title-icon2 .case__content__title-icon2-check button {
   margin-right: -0.5vw;
