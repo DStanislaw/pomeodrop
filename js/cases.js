@@ -1,7 +1,7 @@
   const boxes = document.getElementById('boxes');
         const spinButton = document.getElementById('spinButton');
         const boxWidth = 300; 
-        const totalBoxes = 150;
+        const totalBoxes = 161;
         const visibleBoxes = 5;
         const spinDuration = 7000; 
 
