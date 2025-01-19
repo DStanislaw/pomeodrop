@@ -25,7 +25,7 @@
 
         &:first-of-type{
         z-index: 11;
-        color: rgb(255, 8, 0);
+        color: rgb(122, 0, 146);
         position: absolute;
         }
         
@@ -79,7 +79,7 @@
     .box-goldtext{
         color: gold;
         &::first-letter {
-            color: red; 
+            
             font-size: 1.5em; // Powiększenie pierwszej litery
           }
        

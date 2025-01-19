@@ -23,7 +23,7 @@
 }
 .boxes-every span:first-of-type {
   z-index: 11;
-  color: rgb(255, 8, 0);
+  color: rgb(122, 0, 146);
   position: absolute;
 }
 .boxes-every span:nth-of-type(2) {
@@ -54,7 +54,6 @@
   color: gold;
 }
 .boxes-every .box-goldtext::first-letter {
-  color: red;
   font-size: 1.5em;
 }
 .boxes-every .box-redtext {
