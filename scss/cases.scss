@@ -20,29 +20,6 @@
     position: absolute;
     left: 0;
     transition: left 7s cubic-bezier(0.33, 1, 0.68, 1);
-    span{
-
-        display: flex;
-        text-align: center;
-        
-        justify-content: center;
-        position: relative;
-        &:last-of-type{
-            position: relative;
-             z-index: 12;
-             
-             display: flex;
-             align-items: center;
-             top: 10vw;
-             font-weight: 650;
-             font-size: 0.8vw;
-             font-family: "ponur", sans-serif;
-             text-transform: uppercase;
- 
- 
-         }
-
-    }
 
     span{
 
@@ -55,11 +32,61 @@
      
         
     }
+
+    span{
+
+        &:nth-of-type(2){
+            top: 10vw;
+            font-family: "ponur", sans-serif;
+            font-size: 0.8vw;
+            text-transform: uppercase;
+            color: #ffffff;
+            font-weight: 650;
+
+
+
+        }
+
+    }
+    span{
+
+        display: flex;
+        text-align: center;
+        
+        justify-content: center;
+        position: relative;
+       
+        &:last-of-type{
+            position: relative;
+             z-index: 12;
+             
+             display: flex;
+             align-items: center;
+             top: 10vw;
+             font-weight: 650;
+             font-size: 0.8vw;
+             font-family: "ponur", sans-serif;
+             
+ 
+ 
+         }
+
+    }
+
+   
+
+   
     .box-goldtext{
         color: gold;
+        &::first-letter {
+            color: red; 
+            font-size: 1.5em; // Powiększenie pierwszej litery
+          }
+       
        
 
     }
+   
     .box-redtext{
         color: red;
        
@@ -89,9 +116,7 @@
             height: 300px;
             margin-top: -2vw;
         }
-
-        &:last-of-type{
-            
+        &:nth-last-of-type(2){
             position: absolute;
             z-index: 10;
           width: 10vw;
@@ -99,6 +124,16 @@
           align-items: center;
           justify-content: center;
           margin-left: 2.5vw;
+
+        }
+
+        &:last-of-type{
+            position: relative;
+            z-index: 10;
+            width: 3vw;
+           left: 12vw;
+           top: 10vw;
+          
 
         }
     }
