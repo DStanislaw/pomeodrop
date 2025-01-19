@@ -123,12 +123,16 @@ a{
     align-items: center;
     display: flex;
     gap: 0.4vw;
+    position: relative;
+    transition: box-shadow 0.3s ease;
+   
 
     span {
       fill: #ee9b01;
       display: flex;
       font-size: 0.7vw;
       color: #ee9b01;
+      
     }
     p {
       letter-spacing: 0.08vw;
@@ -137,16 +141,36 @@ a{
       font-weight: 700;
       display: flex;
       color: #ee9b01;
+
     }
+
+    &:hover::before {
+      content: ''; 
+      position: absolute;
+      top: -0.5vw; 
+      left: -0.5vw; 
+      right: -0.5vw; 
+      bottom: -0.5vw;
+      background-color: #161921; 
+      z-index: -1; 
+      border-radius: 1.2vw; 
+      transition: background-color 0.3s ease, transform 0.3s ease; 
   }
+   
+  }
+ 
+  
 
   .menu1__navigation-chests {
+
+    
     cursor: pointer;
     display: flex;
     margin-left: auto;
     align-items: center;
     display: flex;
     gap: 0.4vw;
+    position: relative;
 
     span {
       fill: #ffffff;
@@ -162,8 +186,25 @@ a{
       font-size: 0.58vw;
       font-weight: 550;
     }
+    &:hover::before {
+      content: ''; 
+      position: absolute;
+      top: -0.5vw; 
+      left: -0.5vw; 
+      right: -0.5vw; 
+      bottom: -0.5vw;
+      background-color: #161921; 
+      z-index: -1; 
+      border-radius: 1.2vw; 
+      transition: background-color 0.3s ease, transform 0.3s ease; 
+    }
+
+   
+    
   }
   .menu1__navigation-battles {
+
+    position: relative;
     cursor: pointer;
     display: flex;
     margin-left: auto;
@@ -185,9 +226,23 @@ a{
       font-size: 0.58vw;
       font-weight: 550;
     }
+    &:hover::before {
+      content: ''; 
+      position: absolute;
+      top: -0.5vw; 
+      left: -0.5vw; 
+      right: -0.5vw; 
+      bottom: -0.5vw;
+      background-color: #161921; 
+      z-index: -1; 
+      border-radius: 1.2vw; 
+      transition: background-color 0.3s ease, transform 0.3s ease; 
+    }
+    
   }
 
   .menu1__navigation-contract {
+    position: relative;
     cursor: pointer;
     display: flex;
     margin-left: auto;
@@ -209,11 +264,24 @@ a{
       font-family: "ponur", sans-serif;
       font-size: 0.58vw;
       font-weight: 550;
+    }
+    &:hover::before {
+      content: ''; 
+      position: absolute;
+      top: -0.5vw; 
+      left: -0.5vw; 
+      right: -0.5vw; 
+      bottom: -0.5vw;
+      background-color: #161921; 
+      z-index: -1; 
+      border-radius: 1.2vw; 
+      transition: background-color 0.3s ease, transform 0.3s ease; 
     }
   }
 
   .menu1__navigation-shop {
     cursor: pointer;
+    position: relative;
     display: flex;
     margin-left: auto;
     align-items: center;
@@ -234,6 +302,18 @@ a{
       font-family: "ponur", sans-serif;
       font-size: 0.58vw;
       font-weight: 550;
+    }
+    &:hover::before {
+      content: ''; 
+      position: absolute;
+      top: -0.5vw; 
+      left: -0.5vw; 
+      right: -0.5vw; 
+      bottom: -0.5vw;
+      background-color: #161921; 
+      z-index: -1; 
+      border-radius: 1.2vw; 
+      transition: background-color 0.3s ease, transform 0.3s ease; 
     }
   }
 
