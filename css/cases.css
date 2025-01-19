@@ -21,6 +21,19 @@
   left: 0;
   transition: left 7s cubic-bezier(0.33, 1, 0.68, 1);
 }
+.boxes-every span:first-of-type {
+  z-index: 11;
+  color: rgb(255, 8, 0);
+  position: absolute;
+}
+.boxes-every span:nth-of-type(2) {
+  top: 10vw;
+  font-family: "ponur", sans-serif;
+  font-size: 0.8vw;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-weight: 650;
+}
 .boxes-every span {
   display: flex;
   text-align: center;
@@ -36,15 +49,13 @@
   font-weight: 650;
   font-size: 0.8vw;
   font-family: "ponur", sans-serif;
-  text-transform: uppercase;
-}
-.boxes-every span:first-of-type {
-  z-index: 11;
-  color: rgb(255, 8, 0);
-  position: absolute;
 }
 .boxes-every .box-goldtext {
   color: gold;
+}
+.boxes-every .box-goldtext::first-letter {
+  color: red;
+  font-size: 1.5em;
 }
 .boxes-every .box-redtext {
   color: red;
@@ -64,7 +75,7 @@
   height: 300px;
   margin-top: -2vw;
 }
-.boxes-every img:last-of-type {
+.boxes-every img:nth-last-of-type(2) {
   position: absolute;
   z-index: 10;
   width: 10vw;
@@ -72,6 +83,13 @@
   align-items: center;
   justify-content: center;
   margin-left: 2.5vw;
+}
+.boxes-every img:last-of-type {
+  position: relative;
+  z-index: 10;
+  width: 3vw;
+  left: 12vw;
+  top: 10vw;
 }
 .boxes-every .boxes-legendary {
   position: relative;
