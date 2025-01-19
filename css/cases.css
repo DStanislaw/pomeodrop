@@ -52,9 +52,37 @@
 
 #spinButton {
   margin-top: 2vw;
-  padding: 1vw 2vw;
+  padding: 0.3vw 2vw;
+  margin-left: 30vw;
+  margin-bottom: 2vw;
   font-size: 1.6vw;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.1vw;
+  background: linear-gradient(180deg, #1a1d2e, #10131f);
+  color: #fff;
+  border: 1px solid #17da11;
+  border-radius: 0.5vw;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+#spinButton:hover {
+  background: linear-gradient(180deg, #10131f, #25ce57);
+  transform: scale(1);
+  box-shadow: 0 0 10px rgba(5, 190, 61, 0.6);
+}
+#spinButton:active {
+  transform: scale(0.95);
+}
+#spinButton::before {
+  content: "";
+  display: inline-block;
+  width: 3.5vw;
+  height: 3.6vw;
+  background: url("../design/photos/POMEO-WHITE-SMALL.png") no-repeat center center;
+  background-size: contain;
 }
 
 /*# sourceMappingURL=cases.css.map */
