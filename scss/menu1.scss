@@ -25,12 +25,13 @@ a{
 .menu1__logo {
   cursor: pointer;
   display: flex;
-  margin-left: 0.8vw;
+  margin-left: 0.7vw;
   transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
+ 
 
   
   img {
-    height: 1.87vw;
+    height: 3.7vw;
     transition: transform 0.3s cubic-bezier(0.25, 1, 0.5, 1);
     transform-origin: center left;
   }
