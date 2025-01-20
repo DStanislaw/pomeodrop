@@ -190,7 +190,7 @@
 #spinButton {
     margin-top: 2vw;
     padding: 0.3vw 2vw;
-    margin-left: 31.5vw;
+    margin-left: 33.2vw;
     margin-bottom: 2vw;
     font-size: 1.6vw;
     cursor: pointer;
@@ -287,4 +287,29 @@
 
 .custom-alert-content button:hover {
     background: #88019c;
+}
+
+
+.centralbox{
+
+    i{
+
+        &:first-child{
+        color: #88019c;
+        font-size: 2.2vw;
+        position: relative;
+        top: -8.4vw;
+        left: 38vw;
+        rotate: 180deg;
+        }
+        &:last-child{
+            position: relative;
+            top: -24vw;
+            left: 36vw;
+            color: #88019c;
+            font-size: 2.2vw;
+        }
+
+        
+    }
 }
