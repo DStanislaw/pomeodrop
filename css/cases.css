@@ -134,4 +134,66 @@
   background-size: contain;
 }
 
+.custom-alert {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(190, 180, 180, 0.219);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.custom-alert.hidden {
+  display: none;
+}
+
+.custom-alert-content {
+  position: relative;
+  background: rgb(32, 24, 24);
+  padding: 2vw;
+  border-radius: 1vw;
+  box-shadow: 0 0.2vw 1vw rgba(0, 0, 0, 0.3);
+  text-align: center;
+  width: 15vw;
+}
+
+.custom-alert-content img {
+  width: 4vw;
+  position: absolute;
+  left: 0.1vw;
+  bottom: 0.1vw;
+}
+
+.custom-alert-content p {
+  margin: 0 0 1.5vw;
+  font-size: 1vw;
+  color: #62297C;
+  font-weight: 650;
+  text-transform: uppercase;
+  font-family: "ponur", sans-serif;
+}
+
+.custom-alert-content button {
+  padding: 10px 20px;
+  background: #62297C;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+.custom-alert-content button span {
+  font-weight: 650;
+  font-family: "ponur", sans-serif;
+  color: #ffffff;
+}
+
+.custom-alert-content button:hover {
+  background: #88019c;
+}
+
 /*# sourceMappingURL=cases.css.map */
