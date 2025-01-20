@@ -25,7 +25,7 @@
 }
 .boxes-every span:first-of-type {
   z-index: 11;
-  color: rgb(122, 0, 146);
+  color: #171920;
   position: absolute;
 }
 .boxes-every span:nth-of-type(2) {
