@@ -2,17 +2,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 28vh;
-  background-color: #1B1F2B;
+  height: 27vh;
+  background-color: #ffffff;
   margin: 0;
+  border-radius: 2.5vw;
 }
 
 .container {
   width: 80vw;
   height: 13.5vw;
   overflow: hidden;
-  border: 0.13vw solid #000;
+  border: 0.23vw solid #1B1F2B;
   position: relative;
+  border-radius: 0.3vw;
 }
 
 .boxes-every {
@@ -97,6 +99,16 @@
   width: 300px;
   height: 300px;
   flex-shrink: 0;
+}
+.box::after {
+  content: "";
+  height: 10vw;
+  width: 0.1vw;
+  background-color: rgba(0, 0, 0, 0.301);
+  position: absolute;
+  z-index: 20;
+  margin-top: -0.3vw;
+  margin-left: -2.95vw;
 }
 
 #spinButton {
