@@ -20,9 +20,8 @@ footer .footer__top .footer__logo-container {
   margin-left: 7.2vw;
 }
 footer .footer__top .footer__logo-container .footer__logo {
-  height: 2.2vw;
-  margin-left: -7.62vw;
-  width: auto;
+  width: 18vw;
+  margin-left: -0.5vw;
 }
 footer .footer__top .footer__logo-container .footer__description {
   color: #606d87;
@@ -51,6 +50,7 @@ footer .footer__top .footer__logo-container .footer__socials .footer__social-ico
   display: flex;
   gap: 1vw;
   font-size: 1.1vw;
+  margin-bottom: 0.5vw;
 }
 footer .footer__top .footer__logo-container .footer__socials .footer__social-icons i {
   font-size: 1.1vw;

@@ -20,9 +20,8 @@ footer {
       margin-left: 7.2vw;
 
       .footer__logo {
-        height: 2.2vw;
-        margin-left: -7.62vw;
-        width: auto;
+        width: 18vw;
+        margin-left: -0.5vw;
       }
 
       .footer__description {
@@ -54,6 +53,7 @@ footer {
           display: flex;
           gap: 1vw;
           font-size: 1.1vw;
+          margin-bottom: 0.5vw;
           i {
             font-size: 1.1vw;
             color: #8892a5;
