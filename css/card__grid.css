@@ -3,10 +3,12 @@
   flex-wrap: wrap;
   gap: 1vw;
   padding: 1vw;
+  margin-left: 10vw;
+  margin-right: 1vw;
 }
 .card-grid .card {
   position: relative;
-  width: calc(20% - 1vw);
+  width: 14.8vw;
   aspect-ratio: 4/3;
   background-color: #1b2433;
   border-radius: 0.5vw;
@@ -38,8 +40,8 @@
   position: absolute;
   top: 1vw;
   left: 2vw;
-  width: 14vw;
-  height: 10vw;
+  width: 12vw;
+  height: 8vw;
   object-fit: cover;
   opacity: 1;
 }
@@ -47,27 +49,27 @@
   position: absolute;
   top: 0.5vw;
   right: 0.5vw;
-  font-size: 0.8vw;
+  font-size: 0.6vw;
   font-weight: bold;
-  color: #ffffff;
-  background-color: rgba(0, 0, 0, 0.7);
+  color: #8892a5;
   padding: 0.2vw 0.4vw;
   border-radius: 0.3vw;
-  opacity: 0.1vw;
+  opacity: 0.9vw;
+  font-family: Arial, Helvetica, sans-serif;
 }
-.card-grid .card__text {
+.card-grid .card .card__text {
   padding: 0.5vw;
   text-align: left;
 }
-.card-grid .card__text__title {
-  font-size: 1vw;
-  color: #ffffff;
+.card-grid .card .card__text-title {
+  font-size: 0.8vw;
+  color: #bfbfbf;
   font-family: "Arial", sans-serif;
   font-weight: bold;
 }
-.card-grid .card__text__subtitle {
-  font-size: 0.8vw;
-  color: #4b9dff;
+.card-grid .card .card__text-subtitle {
+  font-size: 0.7vw;
+  color: #4b69ff;
   font-family: "Arial", sans-serif;
   font-weight: normal;
 }
